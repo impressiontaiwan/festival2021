@@ -23,4 +23,5 @@
 <link rel="stylesheet" href="../library/css/slick.css">
 <link rel="stylesheet" href="../library/css/slick-theme.css">
 <link rel="stylesheet" href="../library/css/style.css">
-<script type="text/javascript" src="library/js/style.js"></script>
+
+<script type="text/javascript" src="../library/js/style.js"></script>

@@ -18,6 +18,8 @@ html{
 		overflow-x: hidden;
 		.body-wrap{
 			transition: all 0.3s ease;
+			width: 100%;
+			padding-top: 47px;
 			&.menu-open{
 				transform: translateX(-270px);
 			}
@@ -39,12 +41,12 @@ html{
 			}
 			header{
 				position: relative;
-				padding-top: 48px;
+				position: fixed;
+				left: 0;
+				top: 0;
+				width: 100%;
 				nav{
 					background-color: white;
-					position: fixed;
-					top: 0;
-					left: 0;
 					width: 100%;
 					.frame{
 						display: flex;
@@ -54,6 +56,20 @@ html{
 							padding-top: 7px;
 							svg{
 								width: 100%;
+								.cls-10,.cls-5,.cls-8{
+									@media screen and (min-width: 992px) {
+										fill: white;
+									}
+								}
+								.cls-7{
+									@media screen and (min-width: 992px) {
+										stroke: white;
+									}
+								}
+							}
+							@media screen and (min-width: 768px) {
+								width: 200px;
+								padding-top: 10px;
 							}
 						}
 						.nav-right{
@@ -79,7 +95,10 @@ html{
 										display: block;
 									}
 								}
-							}
+								@media screen and (min-width: 992px) {
+									display: none;
+								}
+							}//social
 							.hamburger{
 								.icon-close{
 									display: none;
@@ -92,8 +111,11 @@ html{
 										display: block;
 									}
 								}
+								@media screen and (min-width: 992px) {
+									display: none;
+								}
 							}//hmaburger
-							.social-menu{
+							.mobile-social-menu{
 								position: fixed;
 								top: 55px;
 								display: none;
@@ -123,21 +145,111 @@ html{
 								}
 								&.active{
 									display: block;
+									@media screen and (min-width: 992px){
+										display: none;
+									}
 								}
-							}//.social-menu
+								@media screen and (min-width: 992px) {
+									display: none;
+								}
+							}//.mobile-social-menu
+							.desktop-social-menu{
+								display: none;
+								ul{
+									display: flex;
+									li{
+										a{
+											color: $yellow;
+											width: 35px;
+											height: 35px;
+											display: flex;
+											justify-content: center;
+											align-items: center;
+											border: 2px solid $yellow;
+											margin: 5px;
+											.social-icon{
+												font-size: 18px;
+												svg{
+													width: 22px;
+												}
+											}
+										}
+									}
+								}
+								@media screen and (min-width: 992px) {
+									display: block;
+								}
+							}
 						}//nav-right
-						.menu-bar{
-							display: none;
-						}//menu-bar
 					}//frame
+					@media screen and (min-width: 992px) {
+						background-color: $blue;
+					}
 				}//nav
+				.menu-bar{
+					display: none;
+					background-color: white;
+					.frame{
+						ul{
+							display: flex;
+							justify-content: space-around;
+							li{
+								a{
+									font-weight: 900;
+									color: $blue;
+									font-size: 18px;
+									padding: 10px 15px;
+									display: block;
+									position: relative;
+									&.current-page{
+										&:after{
+											content: '';
+											width: 100%;
+											height: 7px;
+											bottom: 0;
+											left: 0;
+											background-color: $yellow;
+											position: absolute;
+										}
+									}
+								}
+							}
+						}
+					}
+					@media screen and (min-width: 992px) {
+						display: block;
+					}
+				}//menu-bar
 			}//header
 			footer{
 				background-color: $yellow;
+				font-size: 12px;
+				color: #474747;
+				padding: 20px 0;
 				.frame{
-
+					text-align: center;
+					.impression-wrap{
+						display: flex;
+						align-items: center;
+						justify-content: center;
+						margin-top: 25px;
+						.impression-text{
+							color: $blue;
+							font-size: 20px;
+							font-weight: 700;
+							margin-right: 10px;
+						}
+						.impression-logo{
+							img{
+								width: 150px;
+							}
+						}
+					}
+					.copy-right{
+						margin-top: 25px;
+					}
 				}
-			}
+			}//footer
 			.mobile-menu{
 				background-color: white;
 				width: 270px;
@@ -158,13 +270,23 @@ html{
 							font-size: 24px;
 							//text-align: center;
 							padding: 10px 0;
+							position: relative;
 							&:hover{
+								color: $yellow;
+							}
+							&.current-page{
 								color: $yellow;
 							}
 						}
 					}
 				}
 			}//mobile-menu
+			@media screen and (min-width: 768px){
+				padding-top: 64px;
+				@media screen and (min-width: 992px) {
+					padding-top: 104px;		
+				}
+			}
 		}//body-wrap
 	}//body
 }//html

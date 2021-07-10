@@ -9,7 +9,9 @@ html body {
   width: 100%;
   overflow-x: hidden; }
   html body .body-wrap {
-    transition: all 0.3s ease; }
+    transition: all 0.3s ease;
+    width: 100%;
+    padding-top: 47px; }
     html body .body-wrap.menu-open {
       transform: translateX(-270px); }
     html body .body-wrap .frame {
@@ -32,12 +34,12 @@ html body {
 
     html body .body-wrap header {
       position: relative;
-      padding-top: 48px; }
+      position: fixed;
+      left: 0;
+      top: 0;
+      width: 100%; }
       html body .body-wrap header nav {
         background-color: white;
-        position: fixed;
-        top: 0;
-        left: 0;
         width: 100%; }
         html body .body-wrap header nav .frame {
           display: flex;
@@ -47,6 +49,16 @@ html body {
             padding-top: 7px; }
             html body .body-wrap header nav .frame .logo svg {
               width: 100%; }
+              @media screen and (min-width: 992px) {
+                html body .body-wrap header nav .frame .logo svg .cls-10, html body .body-wrap header nav .frame .logo svg .cls-5, html body .body-wrap header nav .frame .logo svg .cls-8 {
+                  fill: white; } }
+              @media screen and (min-width: 992px) {
+                html body .body-wrap header nav .frame .logo svg .cls-7 {
+                  stroke: white; } }
+            @media screen and (min-width: 768px) {
+              html body .body-wrap header nav .frame .logo {
+                width: 200px;
+                padding-top: 10px; } }
           html body .body-wrap header nav .frame .nav-right {
             display: flex;
             align-items: center; }
@@ -63,17 +75,23 @@ html body {
                 display: none; }
               html body .body-wrap header nav .frame .nav-right .social.active .icon-heart-solid {
                 display: block; }
+              @media screen and (min-width: 992px) {
+                html body .body-wrap header nav .frame .nav-right .social {
+                  display: none; } }
             html body .body-wrap header nav .frame .nav-right .hamburger .icon-close {
               display: none; }
             html body .body-wrap header nav .frame .nav-right .hamburger.active .icon-bars {
               display: none; }
             html body .body-wrap header nav .frame .nav-right .hamburger.active .icon-close {
               display: block; }
-            html body .body-wrap header nav .frame .nav-right .social-menu {
+            @media screen and (min-width: 992px) {
+              html body .body-wrap header nav .frame .nav-right .hamburger {
+                display: none; } }
+            html body .body-wrap header nav .frame .nav-right .mobile-social-menu {
               position: fixed;
               top: 55px;
               display: none; }
-              html body .body-wrap header nav .frame .nav-right .social-menu ul li a {
+              html body .body-wrap header nav .frame .nav-right .mobile-social-menu ul li a {
                 width: 50px;
                 height: 50px;
                 color: #122d7c;
@@ -83,18 +101,88 @@ html body {
                 align-items: center;
                 border: 5px solid #e5c926;
                 margin-bottom: 5px; }
-                html body .body-wrap header nav .frame .nav-right .social-menu ul li a .social-icon {
+                html body .body-wrap header nav .frame .nav-right .mobile-social-menu ul li a .social-icon {
                   font-size: 22px; }
-                  html body .body-wrap header nav .frame .nav-right .social-menu ul li a .social-icon svg {
+                  html body .body-wrap header nav .frame .nav-right .mobile-social-menu ul li a .social-icon svg {
                     width: 25px; }
-                    html body .body-wrap header nav .frame .nav-right .social-menu ul li a .social-icon svg circle {
+                    html body .body-wrap header nav .frame .nav-right .mobile-social-menu ul li a .social-icon svg circle {
                       fill: #122d7c; }
-              html body .body-wrap header nav .frame .nav-right .social-menu.active {
+              html body .body-wrap header nav .frame .nav-right .mobile-social-menu.active {
                 display: block; }
-          html body .body-wrap header nav .frame .menu-bar {
-            display: none; }
+                @media screen and (min-width: 992px) {
+                  html body .body-wrap header nav .frame .nav-right .mobile-social-menu.active {
+                    display: none; } }
+              @media screen and (min-width: 992px) {
+                html body .body-wrap header nav .frame .nav-right .mobile-social-menu {
+                  display: none; } }
+            html body .body-wrap header nav .frame .nav-right .desktop-social-menu {
+              display: none; }
+              html body .body-wrap header nav .frame .nav-right .desktop-social-menu ul {
+                display: flex; }
+                html body .body-wrap header nav .frame .nav-right .desktop-social-menu ul li a {
+                  color: #e5c926;
+                  width: 35px;
+                  height: 35px;
+                  display: flex;
+                  justify-content: center;
+                  align-items: center;
+                  border: 2px solid #e5c926;
+                  margin: 5px; }
+                  html body .body-wrap header nav .frame .nav-right .desktop-social-menu ul li a .social-icon {
+                    font-size: 18px; }
+                    html body .body-wrap header nav .frame .nav-right .desktop-social-menu ul li a .social-icon svg {
+                      width: 22px; }
+              @media screen and (min-width: 992px) {
+                html body .body-wrap header nav .frame .nav-right .desktop-social-menu {
+                  display: block; } }
+        @media screen and (min-width: 992px) {
+          html body .body-wrap header nav {
+            background-color: #122d7c; } }
+      html body .body-wrap header .menu-bar {
+        display: none;
+        background-color: white; }
+        html body .body-wrap header .menu-bar .frame ul {
+          display: flex;
+          justify-content: space-around; }
+          html body .body-wrap header .menu-bar .frame ul li a {
+            font-weight: 900;
+            color: #122d7c;
+            font-size: 18px;
+            padding: 10px 15px;
+            display: block;
+            position: relative; }
+            html body .body-wrap header .menu-bar .frame ul li a.current-page:after {
+              content: '';
+              width: 100%;
+              height: 7px;
+              bottom: 0;
+              left: 0;
+              background-color: #e5c926;
+              position: absolute; }
+        @media screen and (min-width: 992px) {
+          html body .body-wrap header .menu-bar {
+            display: block; } }
     html body .body-wrap footer {
-      background-color: #e5c926; }
+      background-color: #e5c926;
+      font-size: 12px;
+      color: #474747;
+      padding: 20px 0; }
+      html body .body-wrap footer .frame {
+        text-align: center; }
+        html body .body-wrap footer .frame .impression-wrap {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          margin-top: 25px; }
+          html body .body-wrap footer .frame .impression-wrap .impression-text {
+            color: #122d7c;
+            font-size: 20px;
+            font-weight: 700;
+            margin-right: 10px; }
+          html body .body-wrap footer .frame .impression-wrap .impression-logo img {
+            width: 150px; }
+        html body .body-wrap footer .frame .copy-right {
+          margin-top: 25px; }
     html body .body-wrap .mobile-menu {
       background-color: white;
       width: 270px;
@@ -111,8 +199,17 @@ html body {
         color: #122d7c;
         font-weight: 900;
         font-size: 24px;
-        padding: 10px 0; }
+        padding: 10px 0;
+        position: relative; }
         html body .body-wrap .mobile-menu ul li a:hover {
           color: #e5c926; }
+        html body .body-wrap .mobile-menu ul li a.current-page {
+          color: #e5c926; }
+    @media screen and (min-width: 768px) {
+      html body .body-wrap {
+        padding-top: 64px; } }
+  @media screen and (min-width: 768px) and (min-width: 992px) {
+    html body .body-wrap {
+      padding-top: 104px; } }
 
 /*# sourceMappingURL=style.css.map */
