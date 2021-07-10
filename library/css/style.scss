@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+*{
+	box-sizing: border-box;
+}
+//animations
+//variables
+$blue: #122d7c;
+$yellow: #e5c926;
+
+//public
+html{
+	body{
+		font-family: 'Roboto', sans-serif, Arial;
+		background-color: $blue;
+		font-size: 14px;
+		width: 100%;
+		overflow-x: hidden;
+		.body-wrap{
+			transition: all 0.3s ease;
+			&.menu-open{
+				transform: translateX(-270px);
+			}
+			.frame{
+				width: 90%;
+				margin: auto;
+				@media screen and (min-width: 992px) {
+					max-width: 960px;
+					@media screen and (min-width: 1200px) {
+						max-width: 1080px;
+						@media screen and (min-width: 1440px){
+							max-width: 1200px;
+							@media screen and (min-width: 1600px) {
+								max-width: 1400px;
+							}
+						}
+					}
+				}
+			}
+			header{
+				position: relative;
+				padding-top: 48px;
+				nav{
+					background-color: white;
+					position: fixed;
+					top: 0;
+					left: 0;
+					width: 100%;
+					.frame{
+						display: flex;
+						justify-content: space-between;
+						.logo{
+							width: 150px;
+							padding-top: 7px;
+							svg{
+								width: 100%;
+							}
+						}
+						.nav-right{
+							display: flex;
+							align-items: center;
+							button{
+								border: 0;
+								background: none;
+								i{
+									font-size: 24px;
+								}
+							}
+							.social{
+								margin-right: 5px;
+								.icon-heart-solid{
+									display: none;
+								}
+								&.active{
+									.icon-heart{
+										display: none;
+									}
+									.icon-heart-solid{
+										display: block;
+									}
+								}
+							}
+							.hamburger{
+								.icon-close{
+									display: none;
+								}
+								&.active{
+									.icon-bars{
+										display: none;
+									}
+									.icon-close{
+										display: block;
+									}
+								}
+							}//hmaburger
+							.social-menu{
+								position: fixed;
+								top: 55px;
+								display: none;
+								ul{
+									li{
+										a{
+											width: 50px;
+											height: 50px;
+											color: $blue;
+											background-color: white;
+											display: flex;
+											justify-content: center;
+											align-items: center;
+											border: 5px solid $yellow;
+											margin-bottom: 5px;
+											.social-icon{
+												font-size: 22px;
+												svg{
+													width: 25px;
+													circle{
+														fill: $blue;
+													}
+												}
+											}
+										}
+									}
+								}
+								&.active{
+									display: block;
+								}
+							}//.social-menu
+						}//nav-right
+						.menu-bar{
+							display: none;
+						}//menu-bar
+					}//frame
+				}//nav
+			}//header
+			footer{
+				background-color: $yellow;
+				.frame{
+
+				}
+			}
+			.mobile-menu{
+				background-color: white;
+				width: 270px;
+				height: 100vh;
+				position: fixed;
+				right: -270px;
+				top: 0;
+				transition: all 0.3s ease;
+				padding: 40px;
+				overflow: scroll;
+				ul{
+					li{
+						a{
+							display: block;
+							width: 100%;
+							color: $blue;
+							font-weight: 900;
+							font-size: 24px;
+							//text-align: center;
+							padding: 10px 0;
+							&:hover{
+								color: $yellow;
+							}
+						}
+					}
+				}
+			}//mobile-menu
+		}//body-wrap
+	}//body
+}//html
+
+#page_homepage{
+
+}

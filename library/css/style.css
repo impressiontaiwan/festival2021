@@ -1,0 +1,118 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
+* {
+  box-sizing: border-box; }
+
+html body {
+  font-family: 'Roboto', sans-serif, Arial;
+  background-color: #122d7c;
+  font-size: 14px;
+  width: 100%;
+  overflow-x: hidden; }
+  html body .body-wrap {
+    transition: all 0.3s ease; }
+    html body .body-wrap.menu-open {
+      transform: translateX(-270px); }
+    html body .body-wrap .frame {
+      width: 90%;
+      margin: auto; }
+      @media screen and (min-width: 992px) {
+        html body .body-wrap .frame {
+          max-width: 960px; } }
+  @media screen and (min-width: 992px) and (min-width: 1200px) {
+    html body .body-wrap .frame {
+      max-width: 1080px; } }
+
+  @media screen and (min-width: 992px) and (min-width: 1200px) and (min-width: 1440px) {
+    html body .body-wrap .frame {
+      max-width: 1200px; } }
+
+  @media screen and (min-width: 992px) and (min-width: 1200px) and (min-width: 1440px) and (min-width: 1600px) {
+    html body .body-wrap .frame {
+      max-width: 1400px; } }
+
+    html body .body-wrap header {
+      position: relative;
+      padding-top: 48px; }
+      html body .body-wrap header nav {
+        background-color: white;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%; }
+        html body .body-wrap header nav .frame {
+          display: flex;
+          justify-content: space-between; }
+          html body .body-wrap header nav .frame .logo {
+            width: 150px;
+            padding-top: 7px; }
+            html body .body-wrap header nav .frame .logo svg {
+              width: 100%; }
+          html body .body-wrap header nav .frame .nav-right {
+            display: flex;
+            align-items: center; }
+            html body .body-wrap header nav .frame .nav-right button {
+              border: 0;
+              background: none; }
+              html body .body-wrap header nav .frame .nav-right button i {
+                font-size: 24px; }
+            html body .body-wrap header nav .frame .nav-right .social {
+              margin-right: 5px; }
+              html body .body-wrap header nav .frame .nav-right .social .icon-heart-solid {
+                display: none; }
+              html body .body-wrap header nav .frame .nav-right .social.active .icon-heart {
+                display: none; }
+              html body .body-wrap header nav .frame .nav-right .social.active .icon-heart-solid {
+                display: block; }
+            html body .body-wrap header nav .frame .nav-right .hamburger .icon-close {
+              display: none; }
+            html body .body-wrap header nav .frame .nav-right .hamburger.active .icon-bars {
+              display: none; }
+            html body .body-wrap header nav .frame .nav-right .hamburger.active .icon-close {
+              display: block; }
+            html body .body-wrap header nav .frame .nav-right .social-menu {
+              position: fixed;
+              top: 55px;
+              display: none; }
+              html body .body-wrap header nav .frame .nav-right .social-menu ul li a {
+                width: 50px;
+                height: 50px;
+                color: #122d7c;
+                background-color: white;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                border: 5px solid #e5c926;
+                margin-bottom: 5px; }
+                html body .body-wrap header nav .frame .nav-right .social-menu ul li a .social-icon {
+                  font-size: 22px; }
+                  html body .body-wrap header nav .frame .nav-right .social-menu ul li a .social-icon svg {
+                    width: 25px; }
+                    html body .body-wrap header nav .frame .nav-right .social-menu ul li a .social-icon svg circle {
+                      fill: #122d7c; }
+              html body .body-wrap header nav .frame .nav-right .social-menu.active {
+                display: block; }
+          html body .body-wrap header nav .frame .menu-bar {
+            display: none; }
+    html body .body-wrap footer {
+      background-color: #e5c926; }
+    html body .body-wrap .mobile-menu {
+      background-color: white;
+      width: 270px;
+      height: 100vh;
+      position: fixed;
+      right: -270px;
+      top: 0;
+      transition: all 0.3s ease;
+      padding: 40px;
+      overflow: scroll; }
+      html body .body-wrap .mobile-menu ul li a {
+        display: block;
+        width: 100%;
+        color: #122d7c;
+        font-weight: 900;
+        font-size: 24px;
+        padding: 10px 0; }
+        html body .body-wrap .mobile-menu ul li a:hover {
+          color: #e5c926; }
+
+/*# sourceMappingURL=style.css.map */
