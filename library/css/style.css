@@ -8,160 +8,193 @@ html body {
   font-size: 14px;
   width: 100%;
   overflow-x: hidden; }
+  html body header {
+    position: relative;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 1234;
+    transition: all 0.3s ease; }
+    html body header nav {
+      background-color: white;
+      width: 100%; }
+      html body header nav .frame {
+        display: flex;
+        justify-content: space-between; }
+        html body header nav .frame .logo {
+          width: 150px;
+          padding-top: 7px; }
+          html body header nav .frame .logo svg {
+            width: 100%; }
+            @media screen and (min-width: 992px) {
+              html body header nav .frame .logo svg .cls-10, html body header nav .frame .logo svg .cls-5, html body header nav .frame .logo svg .cls-8 {
+                fill: white; } }
+            @media screen and (min-width: 992px) {
+              html body header nav .frame .logo svg .cls-7 {
+                stroke: white; } }
+          @media screen and (min-width: 768px) {
+            html body header nav .frame .logo {
+              width: 200px;
+              padding-top: 10px; } }
+        html body header nav .frame .nav-right {
+          display: flex;
+          align-items: center; }
+          html body header nav .frame .nav-right button {
+            border: 0;
+            background: none; }
+            html body header nav .frame .nav-right button i {
+              font-size: 24px; }
+          html body header nav .frame .nav-right .social {
+            margin-right: 5px; }
+            html body header nav .frame .nav-right .social .icon-heart-solid {
+              display: none; }
+            html body header nav .frame .nav-right .social.active .icon-heart {
+              display: none; }
+            html body header nav .frame .nav-right .social.active .icon-heart-solid {
+              display: block; }
+            @media screen and (min-width: 992px) {
+              html body header nav .frame .nav-right .social {
+                display: none; } }
+          html body header nav .frame .nav-right .hamburger .icon-close {
+            display: none; }
+          html body header nav .frame .nav-right .hamburger.active .icon-bars {
+            display: none; }
+          html body header nav .frame .nav-right .hamburger.active .icon-close {
+            display: block; }
+          @media screen and (min-width: 992px) {
+            html body header nav .frame .nav-right .hamburger {
+              display: none; } }
+          html body header nav .frame .nav-right .mobile-social-menu {
+            position: fixed;
+            top: 55px;
+            display: none; }
+            html body header nav .frame .nav-right .mobile-social-menu ul li a {
+              width: 50px;
+              height: 50px;
+              color: #122d7c;
+              background-color: white;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              border: 5px solid #e5c926;
+              margin-bottom: 5px; }
+              html body header nav .frame .nav-right .mobile-social-menu ul li a .social-icon {
+                font-size: 22px; }
+                html body header nav .frame .nav-right .mobile-social-menu ul li a .social-icon svg {
+                  width: 25px; }
+                  html body header nav .frame .nav-right .mobile-social-menu ul li a .social-icon svg circle {
+                    fill: #122d7c; }
+            html body header nav .frame .nav-right .mobile-social-menu.active {
+              display: block; }
+              @media screen and (min-width: 992px) {
+                html body header nav .frame .nav-right .mobile-social-menu.active {
+                  display: none; } }
+            @media screen and (min-width: 992px) {
+              html body header nav .frame .nav-right .mobile-social-menu {
+                display: none; } }
+          html body header nav .frame .nav-right .desktop-social-menu {
+            display: none; }
+            html body header nav .frame .nav-right .desktop-social-menu ul {
+              display: flex; }
+              html body header nav .frame .nav-right .desktop-social-menu ul li a {
+                color: #e5c926;
+                width: 35px;
+                height: 35px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                border: 2px solid #e5c926;
+                margin: 5px; }
+                html body header nav .frame .nav-right .desktop-social-menu ul li a .social-icon {
+                  font-size: 18px; }
+                  html body header nav .frame .nav-right .desktop-social-menu ul li a .social-icon svg {
+                    width: 22px; }
+                html body header nav .frame .nav-right .desktop-social-menu ul li a:hover {
+                  background-color: #e5c926;
+                  color: #122d7c; }
+                  html body header nav .frame .nav-right .desktop-social-menu ul li a:hover .social-icon svg circle {
+                    fill: #122d7c; }
+            @media screen and (min-width: 992px) {
+              html body header nav .frame .nav-right .desktop-social-menu {
+                display: block; } }
+      @media screen and (min-width: 992px) {
+        html body header nav {
+          background-color: #122d7c; } }
+    html body header .menu-bar {
+      display: none;
+      background-color: white; }
+      html body header .menu-bar .frame ul {
+        display: flex;
+        justify-content: space-around; }
+        html body header .menu-bar .frame ul li a {
+          font-weight: 900;
+          color: #122d7c;
+          font-size: 18px;
+          padding: 10px 15px;
+          display: block;
+          position: relative; }
+          html body header .menu-bar .frame ul li a.current-page:after {
+            content: '';
+            width: 100%;
+            height: 7px;
+            bottom: 0;
+            left: 0;
+            background-color: #e5c926;
+            position: absolute; }
+      @media screen and (min-width: 992px) {
+        html body header .menu-bar {
+          display: block; } }
+    html body header.menu-open {
+      left: -270px; }
+  html body .mobile-menu {
+    background-color: white;
+    width: 270px;
+    height: 100vh;
+    position: fixed;
+    right: -270px;
+    top: 0;
+    transition: all 0.3s ease;
+    padding: 40px;
+    overflow: scroll; }
+    html body .mobile-menu ul li a {
+      display: block;
+      width: 100%;
+      color: #122d7c;
+      font-weight: 900;
+      font-size: 24px;
+      padding: 10px 0;
+      position: relative; }
+      html body .mobile-menu ul li a:hover {
+        color: #e5c926; }
+      html body .mobile-menu ul li a.current-page {
+        color: #e5c926; }
+    html body .mobile-menu.menu-open {
+      right: 0; }
+  html body .frame {
+    width: 90%;
+    margin: auto; }
+    @media screen and (min-width: 992px) {
+      html body .frame {
+        max-width: 960px; } }
+  @media screen and (min-width: 992px) and (min-width: 1200px) {
+    html body .frame {
+      max-width: 1080px; } }
+
+  @media screen and (min-width: 992px) and (min-width: 1200px) and (min-width: 1440px) {
+    html body .frame {
+      max-width: 1200px; } }
+
+  @media screen and (min-width: 992px) and (min-width: 1200px) and (min-width: 1440px) and (min-width: 1600px) {
+    html body .frame {
+      max-width: 1400px; } }
+
   html body .body-wrap {
     transition: all 0.3s ease;
     width: 100%;
     padding-top: 47px; }
     html body .body-wrap.menu-open {
       transform: translateX(-270px); }
-    html body .body-wrap .frame {
-      width: 90%;
-      margin: auto; }
-      @media screen and (min-width: 992px) {
-        html body .body-wrap .frame {
-          max-width: 960px; } }
-  @media screen and (min-width: 992px) and (min-width: 1200px) {
-    html body .body-wrap .frame {
-      max-width: 1080px; } }
-
-  @media screen and (min-width: 992px) and (min-width: 1200px) and (min-width: 1440px) {
-    html body .body-wrap .frame {
-      max-width: 1200px; } }
-
-  @media screen and (min-width: 992px) and (min-width: 1200px) and (min-width: 1440px) and (min-width: 1600px) {
-    html body .body-wrap .frame {
-      max-width: 1400px; } }
-
-    html body .body-wrap header {
-      position: relative;
-      position: fixed;
-      left: 0;
-      top: 0;
-      width: 100%; }
-      html body .body-wrap header nav {
-        background-color: white;
-        width: 100%; }
-        html body .body-wrap header nav .frame {
-          display: flex;
-          justify-content: space-between; }
-          html body .body-wrap header nav .frame .logo {
-            width: 150px;
-            padding-top: 7px; }
-            html body .body-wrap header nav .frame .logo svg {
-              width: 100%; }
-              @media screen and (min-width: 992px) {
-                html body .body-wrap header nav .frame .logo svg .cls-10, html body .body-wrap header nav .frame .logo svg .cls-5, html body .body-wrap header nav .frame .logo svg .cls-8 {
-                  fill: white; } }
-              @media screen and (min-width: 992px) {
-                html body .body-wrap header nav .frame .logo svg .cls-7 {
-                  stroke: white; } }
-            @media screen and (min-width: 768px) {
-              html body .body-wrap header nav .frame .logo {
-                width: 200px;
-                padding-top: 10px; } }
-          html body .body-wrap header nav .frame .nav-right {
-            display: flex;
-            align-items: center; }
-            html body .body-wrap header nav .frame .nav-right button {
-              border: 0;
-              background: none; }
-              html body .body-wrap header nav .frame .nav-right button i {
-                font-size: 24px; }
-            html body .body-wrap header nav .frame .nav-right .social {
-              margin-right: 5px; }
-              html body .body-wrap header nav .frame .nav-right .social .icon-heart-solid {
-                display: none; }
-              html body .body-wrap header nav .frame .nav-right .social.active .icon-heart {
-                display: none; }
-              html body .body-wrap header nav .frame .nav-right .social.active .icon-heart-solid {
-                display: block; }
-              @media screen and (min-width: 992px) {
-                html body .body-wrap header nav .frame .nav-right .social {
-                  display: none; } }
-            html body .body-wrap header nav .frame .nav-right .hamburger .icon-close {
-              display: none; }
-            html body .body-wrap header nav .frame .nav-right .hamburger.active .icon-bars {
-              display: none; }
-            html body .body-wrap header nav .frame .nav-right .hamburger.active .icon-close {
-              display: block; }
-            @media screen and (min-width: 992px) {
-              html body .body-wrap header nav .frame .nav-right .hamburger {
-                display: none; } }
-            html body .body-wrap header nav .frame .nav-right .mobile-social-menu {
-              position: fixed;
-              top: 55px;
-              display: none; }
-              html body .body-wrap header nav .frame .nav-right .mobile-social-menu ul li a {
-                width: 50px;
-                height: 50px;
-                color: #122d7c;
-                background-color: white;
-                display: flex;
-                justify-content: center;
-                align-items: center;
-                border: 5px solid #e5c926;
-                margin-bottom: 5px; }
-                html body .body-wrap header nav .frame .nav-right .mobile-social-menu ul li a .social-icon {
-                  font-size: 22px; }
-                  html body .body-wrap header nav .frame .nav-right .mobile-social-menu ul li a .social-icon svg {
-                    width: 25px; }
-                    html body .body-wrap header nav .frame .nav-right .mobile-social-menu ul li a .social-icon svg circle {
-                      fill: #122d7c; }
-              html body .body-wrap header nav .frame .nav-right .mobile-social-menu.active {
-                display: block; }
-                @media screen and (min-width: 992px) {
-                  html body .body-wrap header nav .frame .nav-right .mobile-social-menu.active {
-                    display: none; } }
-              @media screen and (min-width: 992px) {
-                html body .body-wrap header nav .frame .nav-right .mobile-social-menu {
-                  display: none; } }
-            html body .body-wrap header nav .frame .nav-right .desktop-social-menu {
-              display: none; }
-              html body .body-wrap header nav .frame .nav-right .desktop-social-menu ul {
-                display: flex; }
-                html body .body-wrap header nav .frame .nav-right .desktop-social-menu ul li a {
-                  color: #e5c926;
-                  width: 35px;
-                  height: 35px;
-                  display: flex;
-                  justify-content: center;
-                  align-items: center;
-                  border: 2px solid #e5c926;
-                  margin: 5px; }
-                  html body .body-wrap header nav .frame .nav-right .desktop-social-menu ul li a .social-icon {
-                    font-size: 18px; }
-                    html body .body-wrap header nav .frame .nav-right .desktop-social-menu ul li a .social-icon svg {
-                      width: 22px; }
-              @media screen and (min-width: 992px) {
-                html body .body-wrap header nav .frame .nav-right .desktop-social-menu {
-                  display: block; } }
-        @media screen and (min-width: 992px) {
-          html body .body-wrap header nav {
-            background-color: #122d7c; } }
-      html body .body-wrap header .menu-bar {
-        display: none;
-        background-color: white; }
-        html body .body-wrap header .menu-bar .frame ul {
-          display: flex;
-          justify-content: space-around; }
-          html body .body-wrap header .menu-bar .frame ul li a {
-            font-weight: 900;
-            color: #122d7c;
-            font-size: 18px;
-            padding: 10px 15px;
-            display: block;
-            position: relative; }
-            html body .body-wrap header .menu-bar .frame ul li a.current-page:after {
-              content: '';
-              width: 100%;
-              height: 7px;
-              bottom: 0;
-              left: 0;
-              background-color: #e5c926;
-              position: absolute; }
-        @media screen and (min-width: 992px) {
-          html body .body-wrap header .menu-bar {
-            display: block; } }
     html body .body-wrap footer {
       background-color: #e5c926;
       font-size: 12px;
@@ -183,33 +216,136 @@ html body {
             width: 150px; }
         html body .body-wrap footer .frame .copy-right {
           margin-top: 25px; }
-    html body .body-wrap .mobile-menu {
-      background-color: white;
-      width: 270px;
-      height: 100vh;
-      position: fixed;
-      right: -270px;
-      top: 0;
-      transition: all 0.3s ease;
-      padding: 40px;
-      overflow: scroll; }
-      html body .body-wrap .mobile-menu ul li a {
-        display: block;
-        width: 100%;
-        color: #122d7c;
-        font-weight: 900;
-        font-size: 24px;
-        padding: 10px 0;
-        position: relative; }
-        html body .body-wrap .mobile-menu ul li a:hover {
-          color: #e5c926; }
-        html body .body-wrap .mobile-menu ul li a.current-page {
-          color: #e5c926; }
     @media screen and (min-width: 768px) {
       html body .body-wrap {
         padding-top: 64px; } }
   @media screen and (min-width: 768px) and (min-width: 992px) {
     html body .body-wrap {
       padding-top: 104px; } }
+
+#page_homepage .banner {
+  padding: 20px 0; }
+  #page_homepage .banner .frame ul.slick-slider li.slick-slide {
+    height: auto; }
+    #page_homepage .banner .frame ul.slick-slider li.slick-slide img {
+      width: 100%; }
+  #page_homepage .banner .frame ul.slick-slider ul.slick-dots {
+    bottom: -20px; }
+    #page_homepage .banner .frame ul.slick-slider ul.slick-dots > li {
+      position: relative;
+      width: 10px;
+      height: 10px;
+      margin: 0 10px; }
+      #page_homepage .banner .frame ul.slick-slider ul.slick-dots > li button {
+        border: 2px solid white;
+        width: 10px;
+        height: 10px; }
+        #page_homepage .banner .frame ul.slick-slider ul.slick-dots > li button:before {
+          display: none; }
+      #page_homepage .banner .frame ul.slick-slider ul.slick-dots > li.slick-active button {
+        background-color: white; }
+        #page_homepage .banner .frame ul.slick-slider ul.slick-dots > li.slick-active button:before {
+          display: none; }
+    @media screen and (min-width: 768px) {
+      #page_homepage .banner .frame ul.slick-slider ul.slick-dots {
+        bottom: -30px; } }
+  @media screen and (min-width: 992px) {
+    #page_homepage .banner {
+      padding: 40px 0; } }
+#page_homepage .trailer .frame .title {
+  color: white;
+  text-transform: uppercase;
+  font-weight: 900;
+  font-size: 32px;
+  padding-left: 23px;
+  position: relative; }
+  #page_homepage .trailer .frame .title span {
+    color: #e5c926; }
+  #page_homepage .trailer .frame .title:before {
+    content: '';
+    height: 90%;
+    top: 5%;
+    left: 0;
+    width: 13px;
+    background-color: white;
+    position: absolute; }
+    @media screen and (min-width: 768px) {
+      #page_homepage .trailer .frame .title:before {
+        width: 20px; } }
+  @media screen and (min-width: 768px) and (min-width: 992px) {
+    #page_homepage .trailer .frame .title:before {
+      height: 96%;
+      top: 2%; } }
+
+  @media screen and (min-width: 768px) {
+    #page_homepage .trailer .frame .title {
+      font-size: 42px;
+      padding-left: 38px; } }
+  @media screen and (min-width: 768px) and (min-width: 992px) {
+    #page_homepage .trailer .frame .title {
+      font-size: 50px;
+      width: 280px; } }
+
+#page_homepage .trailer .frame .video {
+  margin-top: 20px;
+  height: 50vw;
+  flex: 1; }
+  @media screen and (min-width: 992px) {
+    #page_homepage .trailer .frame .video {
+      margin-top: 0;
+      height: 33vw;
+      max-height: 340px; } }
+@media screen and (min-width: 992px) {
+  #page_homepage .trailer .frame {
+    display: flex; } }
+@media screen and (min-width: 768px) {
+  #page_homepage .trailer {
+    padding: 20px 0; } }
+#page_homepage .tickets-events {
+  padding: 40px 0; }
+  #page_homepage .tickets-events .frame .square {
+    border: 10px solid white;
+    padding: 20px;
+    display: block;
+    color: white;
+    height: 90vw;
+    margin-top: 20px;
+    position: relative; }
+    #page_homepage .tickets-events .frame .square .title {
+      text-transform: uppercase;
+      font-size: 32px; }
+      @media screen and (min-width: 768px) {
+        #page_homepage .tickets-events .frame .square .title {
+          font-size: 42px; } }
+    #page_homepage .tickets-events .frame .square p.slogan {
+      font-weight: 700;
+      margin-top: 20px;
+      font-size: 20px; }
+    #page_homepage .tickets-events .frame .square p.text {
+      margin-top: 20px; }
+    #page_homepage .tickets-events .frame .square svg {
+      position: absolute;
+      right: 20px;
+      bottom: 25px;
+      width: 50px; }
+    #page_homepage .tickets-events .frame .square:hover {
+      background-color: white;
+      color: #122d7c; }
+      #page_homepage .tickets-events .frame .square:hover svg .cls-1, #page_homepage .tickets-events .frame .square:hover svg .cls-2 {
+        stroke: #122d7c; }
+    @media screen and (min-width: 768px) {
+      #page_homepage .tickets-events .frame .square {
+        height: 47vw;
+        border-width: 15px; } }
+  @media screen and (min-width: 768px) and (min-width: 992px) {
+    #page_homepage .tickets-events .frame .square {
+      width: calc(50% - 20px);
+      height: 35vw;
+      max-height: 380px; } }
+
+  @media screen and (min-width: 992px) {
+    #page_homepage .tickets-events .frame {
+      display: flex;
+      justify-content: space-between; } }
 
 /*# sourceMappingURL=style.css.map */

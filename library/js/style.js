@@ -2,6 +2,8 @@ $(document).ready(function(){
 
 	//header
 	$('.hamburger').click(function(){
+		$('header').toggleClass('menu-open');
+		$('.mobile-menu').toggleClass('menu-open');
 		$('.body-wrap').toggleClass('menu-open');
 		$(this).toggleClass('active');
 	});
@@ -24,6 +26,8 @@ $(document).ready(function(){
 
 	$(window).resize(function(){
 		$('.hamburger').removeClass('active');
+		$('header').removeClass('menu-open');
+		$('.mobile-menu').removeClass('menu-open');
 		$('.body-wrap').removeClass('menu-open');
 		$('.social').removeClass('active');
 		$('.mobile-social-menu').removeClass('active');
@@ -33,4 +37,9 @@ $(document).ready(function(){
 	$('footer a').attr('target','_blank');
 
 	//homepage
+	$('.banner ul').slick({
+		arrows: false,
+		dots: true,
+		autoplay: true,
+	});
 });
