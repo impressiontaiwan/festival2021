@@ -643,10 +643,13 @@ html{
 					font-weight: 700;
 					margin-top: 20px;
 					font-size: 20px;
-					@media screen and (min-width: 1600px){
-						font-size: 38px;
-						margin-top: 30px;
-					}
+					@media screen and (min-width: 1400px){
+						font-size: 28px;
+						@media screen and (min-width: 1600px){
+							font-size: 38px;
+							margin-top: 30px;
+						}
+					}		
 				}
 				p.text{
 					margin-top: 20px;

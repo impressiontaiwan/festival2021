@@ -518,10 +518,14 @@ html body {
       font-weight: 700;
       margin-top: 20px;
       font-size: 20px; }
-      @media screen and (min-width: 1600px) {
+      @media screen and (min-width: 1400px) {
         #page_homepage .tickets-events .frame .square p.slogan {
-          font-size: 38px;
-          margin-top: 30px; } }
+          font-size: 28px; } }
+  @media screen and (min-width: 1400px) and (min-width: 1600px) {
+    #page_homepage .tickets-events .frame .square p.slogan {
+      font-size: 38px;
+      margin-top: 30px; } }
+
     #page_homepage .tickets-events .frame .square p.text {
       margin-top: 20px; }
       @media screen and (min-width: 1600px) {
