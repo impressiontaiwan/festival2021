@@ -19,7 +19,7 @@
 
 <link rel="stylesheet" href="../library/fonts/fontawesome/all.css">
 <link rel="stylesheet" href="../library/css/reset.css">
-<link rel="stylesheet" href="../library/css/animate.css">
+<link rel="stylesheet" href="../library/css/animate.min.css">
 <link rel="stylesheet" href="../library/css/slick.css">
 <link rel="stylesheet" href="../library/css/slick-theme.css">
 <link rel="stylesheet" href="../library/css/style.css">
