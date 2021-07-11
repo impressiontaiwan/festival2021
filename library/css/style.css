@@ -192,14 +192,20 @@ html body {
           padding: 10px 15px;
           display: block;
           position: relative; }
-          html body header .menu-bar .frame ul li a.current-page:after {
+          html body header .menu-bar .frame ul li a:after {
             content: '';
-            width: 100%;
+            width: 0%;
             height: 7px;
             bottom: 0;
             left: 0;
             background-color: #e5c926;
-            position: absolute; }
+            position: absolute;
+            transition: all 0.3s ease; }
+          html body header .menu-bar .frame ul li a:hover:after {
+            content: '';
+            width: 100%; }
+          html body header .menu-bar .frame ul li a.current-page:after {
+            width: 100%; }
           @media screen and (min-width: 1200px) {
             html body header .menu-bar .frame ul li a {
               font-size: 20px; } }
