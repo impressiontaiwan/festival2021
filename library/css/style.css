@@ -51,7 +51,8 @@ html body {
   background-color: #122d7c;
   font-size: 14px;
   width: 100%;
-  overflow-x: hidden; }
+  overflow-x: hidden;
+  color: white; }
   html body header {
     position: relative;
     position: fixed;
@@ -661,5 +662,97 @@ html body {
   @media screen and (min-width: 992px) and (min-width: 1400px) and (min-width: 1600px) {
     #page_homepage .contact {
       padding: 100px 0 160px 0; } }
+
+#page_programme {
+  position: relative; }
+  #page_programme .sub-menu {
+    position: fixed;
+    width: 100%;
+    background-color: #122d7c;
+    z-index: 1230; }
+    #page_programme .sub-menu ul {
+      display: flex;
+      padding: 20px 0;
+      overflow-x: scroll; }
+      #page_programme .sub-menu ul li {
+        flex: none;
+        margin-right: 20px; }
+        #page_programme .sub-menu ul li a {
+          color: white;
+          position: relative;
+          padding-left: 20px; }
+          #page_programme .sub-menu ul li a:before {
+            content: '';
+            width: 12px;
+            height: 12px;
+            background-color: white;
+            position: absolute;
+            left: 0;
+            top: 50%;
+            transform: translateY(-50%); }
+          #page_programme .sub-menu ul li a:hover {
+            color: #e5c926; }
+            #page_programme .sub-menu ul li a:hover:before {
+              background-color: #e5c926; }
+  #page_programme .category {
+    padding-top: 110px;
+    margin-top: -90px;
+    position: relative; }
+    #page_programme .category .frame .category-text {
+      color: white;
+      padding-left: 30px;
+      position: relative; }
+      #page_programme .category .frame .category-text .name {
+        color: white;
+        text-transform: uppercase;
+        font-weight: 900;
+        font-size: 26px; }
+      #page_programme .category .frame .category-text .intro {
+        margin-top: 15px;
+        line-height: 1.3em; }
+      #page_programme .category .frame .category-text:before {
+        content: '';
+        background-color: white;
+        position: absolute;
+        height: 98%;
+        top: 1%;
+        left: 0;
+        width: 15px; }
+    #page_programme .category .frame .movie {
+      margin-top: 20px; }
+      #page_programme .category .frame .movie .video {
+        width: 100%;
+        height: 50vw; }
+      #page_programme .category .frame .movie .name {
+        margin-top: 10px;
+        font-size: 18px;
+        font-weight: 900; }
+      #page_programme .category .frame .movie .info {
+        margin-top: 15px; }
+      #page_programme .category .frame .movie .tag-wrap {
+        margin-top: 5px; }
+        #page_programme .category .frame .movie .tag-wrap a {
+          color: #e5c926; }
+      #page_programme .category .frame .movie .button-wrap {
+        margin-top: 10px;
+        padding: 10px 0; }
+        #page_programme .category .frame .movie .button-wrap .button {
+          color: white;
+          padding: 10px 20px;
+          border: 1px solid white;
+          font-weight: 900;
+          background-color: #122d7c; }
+          #page_programme .category .frame .movie .button-wrap .button i {
+            margin-left: 3px; }
+          #page_programme .category .frame .movie .button-wrap .button:hover {
+            background-color: white;
+            color: #122d7c; }
+  #page_programme #opening_film {
+    padding-top: 156px; }
+  #page_programme #closing_film {
+    padding-bottom: 60px; }
+    #page_programme #closing_film .movie:last-child .video {
+      background-image: url("../../library/assets/closing_film.jpg");
+      background-size: cover; }
 
 /*# sourceMappingURL=style.css.map */

@@ -86,6 +86,7 @@ html{
 		font-size: 14px;
 		width: 100%;
 		overflow-x: hidden;
+		color: white;
 		header{
 			position: relative;
 			position: fixed;
@@ -793,3 +794,128 @@ html{
 		}
 	}//contact
 }//#page_homepage
+
+#page_programme{
+	position: relative;
+	.sub-menu{
+		position: fixed;
+		width: 100%;
+		background-color: $blue;
+		z-index: 1230;
+		ul{
+			display: flex;
+			padding: 20px 0;
+			overflow-x: scroll;
+			li{
+				flex: none;
+				margin-right: 20px;
+				a{
+					color: white;
+					position: relative;
+					padding-left: 20px;
+					&:before{
+						content: '';
+						width: 12px;
+						height: 12px;
+						background-color: white;
+						position: absolute;
+						left: 0;
+						top: 50%;
+						transform: translateY(-50%);
+					}
+					&:hover{
+						color: $yellow;
+						&:before{
+							background-color: $yellow;
+						}
+					}
+				}
+			}
+		}
+		@media screen and (min-width: 768px) {
+			//display: block;
+		}
+	}//sub-menu
+	.category{
+		padding-top: 110px;
+		margin-top: -90px;
+		position: relative;
+		.frame{
+			.category-text{
+				color: white;
+				padding-left: 30px;
+				position: relative;
+				.name{
+					color: white;
+					text-transform: uppercase;
+					font-weight: 900;
+					font-size: 26px;
+				}
+				.intro{
+					margin-top: 15px;
+					line-height: 1.3em;
+				}
+				&:before{
+					content: '';
+					background-color: white;
+					position: absolute;
+					height: 98%;
+					top: 1%;
+					left: 0;
+					width: 15px;
+				}
+			}//category
+			.movie{
+				margin-top: 20px;
+				.video{
+					width: 100%;
+					height: 50vw;
+				}//video
+				.name{
+					margin-top: 10px;
+					font-size: 18px;
+					font-weight: 900;
+				}//name
+				.info{
+					margin-top: 15px;
+				}
+				.tag-wrap{
+					margin-top: 5px;
+					a{
+						color: $yellow;
+					}
+				}
+				.button-wrap{
+					margin-top: 10px;
+					padding: 10px 0;
+					.button{
+						color: white;
+						padding: 10px 20px;
+						border: 1px solid white;
+						font-weight: 900;
+						background-color: $blue;
+						i{
+							margin-left: 3px;
+						}
+						&:hover{
+							background-color: white;
+							color: $blue;
+						}
+					}//button
+				}
+			}//movie
+		}//frame
+	}//category
+	#opening_film{
+		padding-top: 156px;
+	}
+	#closing_film{
+		padding-bottom: 60px;
+		.movie:last-child{
+			.video{
+				background-image: url('../../library/assets/closing_film.jpg');
+				background-size: cover;
+			}
+		}
+	}
+}

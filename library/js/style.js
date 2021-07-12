@@ -59,4 +59,10 @@ $(document).ready(function(){
 		    // instead of a settings object
 		  ]
 	});
+
+	//programme
+	$('#page_programme .sub-menu a').click(function(){
+		var selectSection = $(this).attr('href');
+		$('html,body').animate({scrollTop: $(selectSection).offset().top},'slow');
+	});
 });
