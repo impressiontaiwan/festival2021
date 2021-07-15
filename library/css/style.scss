@@ -87,6 +87,10 @@ html{
 		width: 100%;
 		overflow-x: hidden;
 		color: white;
+		&.popup-show{
+			height: 100%;
+			overflow: hidden;
+		}
 		header{
 			position: relative;
 			position: fixed;
@@ -797,6 +801,172 @@ html{
 
 #page_programme{
 	position: relative;
+	.popup{
+		width: 100%;
+		height: 100%;
+		position: fixed;
+		z-index: 1235;
+		background-color: rgba(0,0,0,0.8);
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		display: none;
+		.close-btn{
+			background-color: $yellow;
+			color: white;
+			padding: 0;
+			border: 0;
+			width: 35px;
+			height: 35px;
+			font-size: 26px;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			position: absolute;
+			right: 5%;
+			top: 2.5%;
+			z-index: 1236;
+			cursor: pointer;
+			i{
+				transition: all 0.3s ease;
+			}
+			&:hover{
+				i{
+					transform: rotate(90deg);
+				}
+			}
+			@media screen and (min-width: 768px) {
+				@media screen and (min-width: 992px){
+					right: calc((100% - 965px)/2);
+					top: calc((100% - 545px)/2);
+					@media screen and (min-width: 1200px){
+						width: 45px;
+						height: 45px;
+						font-size: 34px;
+						@media screen and (min-width: 1400px){
+							right: calc((100% - 1140px)/2);
+							top: calc((100% - 685px)/2);
+						}
+					}
+				}	
+			}	
+				
+		}
+		.popup-content{
+			background-color: white;
+			width: 90%;
+			height: 95%;
+			border: 10px solid $yellow;
+			overflow-y: scroll;
+			position: relative;
+			.content-wrap{
+				width: 100%;
+				height: 100%;
+				.content{
+					color: black;
+					padding: 20px;
+					padding-bottom: 40px;
+					.content-title{
+						color: $yellow;
+						text-transform: uppercase;
+						font-weight: 900;
+						font-size: 28px;
+						@media screen and (min-width: 992px){
+							font-size: 38px;
+						}
+					}
+					@media screen and (min-width: 992px) {
+						overflow-y: scroll;
+					}
+				}//content
+				.movie{
+					border-bottom: 1px solid $yellow;
+					.movie-name{
+						font-size: 16px;
+						margin-top: 10px;
+						@media screen and (min-width: 992px){
+							font-size: 20px;
+						}
+					}
+					.info{
+						margin-top: 20px;
+					}
+					.tag-wrap{
+						margin-top: 5px;
+						.tag{
+							color: $yellow;
+						}
+					}
+					.intro{
+						margin-top: 20px;
+						p{
+							margin-bottom: 10px;
+						}
+					}
+					@media screen and (min-width: 992px){
+						border-bottom: none;
+						border-right: 1px solid $yellow;
+						padding-right: 40px;
+						flex: 1;
+					}
+				}//movie
+				.director{
+					.director-img{
+						width: 200px;
+						height: 200px;
+						margin-top: 10px;
+						img{
+							width: 100%;
+							height: 100%;
+							object-fit: cover;
+						}
+					}
+					.director-name{
+						font-weight: 700;
+						margin-top: 15px;
+					}
+					.director-intro{
+						margin-top: 10px;
+					}
+					.button-wrap{
+						margin-top: 30px;
+						.interview-btn{
+							font-weight: 900;
+							background-color: white;
+							border: 1px solid black;
+							color: black;
+							padding: 5px 10px;
+							&:hover{
+								background-color: black;
+								color: white;
+							}
+						}
+					}
+					@media screen and (min-width: 992px){
+						width: 350px;
+						@media screen and (min-width: 1400px){
+							width: 380px;
+						}
+					}
+				}//director
+				@media screen and (min-width: 992px) {
+					display: flex;
+				}
+			}//content-wrap
+			@media screen and (min-width: 992px) {
+				width: 965px;
+				height: 545px;
+				overflow: hidden;
+				@media screen and (min-width: 1200px) {
+					border-width: 15px;
+					@media screen and (min-width: 1400px) {
+						width: 1140px;
+						height: 685px;
+					}
+				}
+			}
+		}//popup-content
+	}
 	.sub-menu{
 		position: fixed;
 		width: 100%;
@@ -830,11 +1000,18 @@ html{
 						}
 					}
 				}
+				@media screen and (min-width: 992px) {
+					margin-right: 30px;
+					@media screen and (min-width: 1200px){
+						margin-right: 48px;
+					}
+				}
+			}//li
+			@media screen and (min-width: 768px) {
+				justify-content: center;
+				overflow: hidden;	
 			}
-		}
-		@media screen and (min-width: 768px) {
-			//display: block;
-		}
+		}//ul
 	}//sub-menu
 	.category{
 		padding-top: 110px;
@@ -845,15 +1022,25 @@ html{
 				color: white;
 				padding-left: 30px;
 				position: relative;
+				width: 100%;
 				.name{
 					color: white;
 					text-transform: uppercase;
 					font-weight: 900;
 					font-size: 26px;
+					@media screen and (min-width: 992px){
+						font-size: 38px;
+						@media screen and (min-width: 1400px) {
+							font-size: 54px;
+						}
+					}
 				}
 				.intro{
 					margin-top: 15px;
 					line-height: 1.3em;
+					@media screen and (min-width: 992px){
+						margin-top: 25px;
+					}
 				}
 				&:before{
 					content: '';
@@ -863,25 +1050,57 @@ html{
 					top: 1%;
 					left: 0;
 					width: 15px;
+					@media screen and (min-width: 992px) {
+						width: 25px;
+						@media screen and (min-width: 1400px){
+							top: 2%;
+						}
+					}
 				}
-			}//category
+				@media screen and (min-width: 992px){
+					padding-left: 46px;
+					padding-right: 40px;
+				}
+			}//category-text
 			.movie{
 				margin-top: 20px;
 				.video{
 					width: 100%;
 					height: 50vw;
+					@media screen and (min-width: 992px) {
+						height: 24vw;
+						max-height: 260px;
+						@media screen and (min-width: 1200px){
+							max-height: 298px;
+							@media screen and (min-width: 1400px){
+								max-height: 326px;
+								@media screen and (min-width: 1600px){
+									max-height: 385px;
+								}
+							}
+						}
+					}
 				}//video
 				.name{
 					margin-top: 10px;
 					font-size: 18px;
 					font-weight: 900;
+					*{
+						line-height: 1.5em;
+					}
+					@media screen and (min-width: 1400px){
+						font-size: 22px;
+					}
 				}//name
 				.info{
 					margin-top: 15px;
+					@media screen and (min-width: 992px){
+						margin-top: 25px;
+					}
 				}
 				.tag-wrap{
 					margin-top: 5px;
-					a{
+					.tag{
 						color: $yellow;
 					}
 				}
@@ -894,6 +1113,8 @@ html{
 						border: 1px solid white;
 						font-weight: 900;
 						background-color: $blue;
+						cursor: pointer;
+						font-size: 14px;
 						i{
 							margin-left: 3px;
 						}
@@ -901,15 +1122,106 @@ html{
 							background-color: white;
 							color: $blue;
 						}
+						@media screen and (min-width: 992px){
+							font-size: 16px;
+							@media screen and (min-width: 1400px){
+								font-size: 18px;
+							}
+						}
 					}//button
+					@media screen and (min-width: 992px){
+						margin-top: 20px;
+					}
+				}//button-wrap
+				&:nth-child(even){
+					@media screen and (min-width: 992px){
+						padding-right: 10px;
+						@media screen and (min-width: 1400px){
+							padding-right: 20px;
+						}
+					}
+				}
+				&:nth-child(odd){
+					@media screen and (min-width: 992px){
+						padding-left: 10px;
+						@media screen and (min-width: 1400px){
+							padding-left: 20px;
+						}
+					}
+				}
+				@media screen and (min-width: 992px) {
+					width: 50%;
+					margin-top: 50px;
 				}
 			}//movie
+			@media screen and (min-width: 992px) {
+				display: flex;
+				flex-wrap: wrap;
+			}
 		}//frame
+		@media screen and (min-width: 768px) {
+			padding-top: 160px;
+			@media screen and (min-width: 992px) {
+				padding-top: 180px;
+				margin-top: -50px;
+				@media screen and (min-width: 1400px) {
+					padding-top: 215px;
+				}
+			}
+		}
 	}//category
 	#opening_film{
 		padding-top: 156px;
+		z-index: 6;
+		.frame{
+			.category-text{
+				&:before{
+					@media screen and (min-width: 992px){
+						height: 265px;
+						@media screen and (min-width: 1200px){
+							height: 245px;
+							@media screen and (min-width: 1400px){
+								height: 305px;
+								@media screen and (min-width: 1600px){
+									height: 277px;
+								}
+							}
+						}
+					}
+				}
+				@media screen and (min-width: 992px){
+					width: 50%;
+				}
+			}
+			.movie{
+				@media screen and (min-width: 992px) {
+					margin-top: 0;
+					padding: 0;
+				}
+			}
+		}
+		@media screen and (min-width: 768px) {
+			padding-top: 175px;
+			@media screen and (min-width: 1400px) {
+				padding-top: 230px;
+				margin-top: -137px;
+			}
+		}
+	}
+	#human_rights{
+		z-index: 5;
+	}
+	#artists{
+		z-index: 4;
+	}
+	#explorer{
+		z-index: 3;
+	}
+	#short_film{
+		z-index: 2;
 	}
 	#closing_film{
+		z-index: 1;
 		padding-bottom: 60px;
 		.movie:last-child{
 			.video{
@@ -917,5 +1229,11 @@ html{
 				background-size: cover;
 			}
 		}
+		@media screen and (min-width: 1200px) {
+			padding-bottom: 100px;
+			@media screen and (min-width: 1400px){
+				padding-bottom: 150px;
+			}
+		}
 	}
-}
+}//#page_programme

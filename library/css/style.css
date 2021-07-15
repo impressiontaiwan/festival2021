@@ -53,6 +53,9 @@ html body {
   width: 100%;
   overflow-x: hidden;
   color: white; }
+  html body.popup-show {
+    height: 100%;
+    overflow: hidden; }
   html body header {
     position: relative;
     position: fixed;
@@ -665,6 +668,149 @@ html body {
 
 #page_programme {
   position: relative; }
+  #page_programme .popup {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: 1235;
+    background-color: rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none; }
+    #page_programme .popup .close-btn {
+      background-color: #e5c926;
+      color: white;
+      padding: 0;
+      border: 0;
+      width: 35px;
+      height: 35px;
+      font-size: 26px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: absolute;
+      right: 5%;
+      top: 2.5%;
+      z-index: 1236;
+      cursor: pointer; }
+      #page_programme .popup .close-btn i {
+        transition: all 0.3s ease; }
+      #page_programme .popup .close-btn:hover i {
+        transform: rotate(90deg); }
+@media screen and (min-width: 768px) and (min-width: 992px) {
+  #page_programme .popup .close-btn {
+    right: calc((100% - 965px)/2);
+    top: calc((100% - 545px)/2); } }
+
+  @media screen and (min-width: 768px) and (min-width: 992px) and (min-width: 1200px) {
+    #page_programme .popup .close-btn {
+      width: 45px;
+      height: 45px;
+      font-size: 34px; } }
+
+  @media screen and (min-width: 768px) and (min-width: 992px) and (min-width: 1200px) and (min-width: 1400px) {
+    #page_programme .popup .close-btn {
+      right: calc((100% - 1140px)/2);
+      top: calc((100% - 685px)/2); } }
+
+    #page_programme .popup .popup-content {
+      background-color: white;
+      width: 90%;
+      height: 95%;
+      border: 10px solid #e5c926;
+      overflow-y: scroll;
+      position: relative; }
+      #page_programme .popup .popup-content .content-wrap {
+        width: 100%;
+        height: 100%; }
+        #page_programme .popup .popup-content .content-wrap .content {
+          color: black;
+          padding: 20px;
+          padding-bottom: 40px; }
+          #page_programme .popup .popup-content .content-wrap .content .content-title {
+            color: #e5c926;
+            text-transform: uppercase;
+            font-weight: 900;
+            font-size: 28px; }
+            @media screen and (min-width: 992px) {
+              #page_programme .popup .popup-content .content-wrap .content .content-title {
+                font-size: 38px; } }
+          @media screen and (min-width: 992px) {
+            #page_programme .popup .popup-content .content-wrap .content {
+              overflow-y: scroll; } }
+        #page_programme .popup .popup-content .content-wrap .movie {
+          border-bottom: 1px solid #e5c926; }
+          #page_programme .popup .popup-content .content-wrap .movie .movie-name {
+            font-size: 16px;
+            margin-top: 10px; }
+            @media screen and (min-width: 992px) {
+              #page_programme .popup .popup-content .content-wrap .movie .movie-name {
+                font-size: 20px; } }
+          #page_programme .popup .popup-content .content-wrap .movie .info {
+            margin-top: 20px; }
+          #page_programme .popup .popup-content .content-wrap .movie .tag-wrap {
+            margin-top: 5px; }
+            #page_programme .popup .popup-content .content-wrap .movie .tag-wrap .tag {
+              color: #e5c926; }
+          #page_programme .popup .popup-content .content-wrap .movie .intro {
+            margin-top: 20px; }
+            #page_programme .popup .popup-content .content-wrap .movie .intro p {
+              margin-bottom: 10px; }
+          @media screen and (min-width: 992px) {
+            #page_programme .popup .popup-content .content-wrap .movie {
+              border-bottom: none;
+              border-right: 1px solid #e5c926;
+              padding-right: 40px;
+              flex: 1; } }
+        #page_programme .popup .popup-content .content-wrap .director .director-img {
+          width: 200px;
+          height: 200px;
+          margin-top: 10px; }
+          #page_programme .popup .popup-content .content-wrap .director .director-img img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover; }
+        #page_programme .popup .popup-content .content-wrap .director .director-name {
+          font-weight: 700;
+          margin-top: 15px; }
+        #page_programme .popup .popup-content .content-wrap .director .director-intro {
+          margin-top: 10px; }
+        #page_programme .popup .popup-content .content-wrap .director .button-wrap {
+          margin-top: 30px; }
+          #page_programme .popup .popup-content .content-wrap .director .button-wrap .interview-btn {
+            font-weight: 900;
+            background-color: white;
+            border: 1px solid black;
+            color: black;
+            padding: 5px 10px; }
+            #page_programme .popup .popup-content .content-wrap .director .button-wrap .interview-btn:hover {
+              background-color: black;
+              color: white; }
+        @media screen and (min-width: 992px) {
+          #page_programme .popup .popup-content .content-wrap .director {
+            width: 350px; } }
+  @media screen and (min-width: 992px) and (min-width: 1400px) {
+    #page_programme .popup .popup-content .content-wrap .director {
+      width: 380px; } }
+
+        @media screen and (min-width: 992px) {
+          #page_programme .popup .popup-content .content-wrap {
+            display: flex; } }
+      @media screen and (min-width: 992px) {
+        #page_programme .popup .popup-content {
+          width: 965px;
+          height: 545px;
+          overflow: hidden; } }
+  @media screen and (min-width: 992px) and (min-width: 1200px) {
+    #page_programme .popup .popup-content {
+      border-width: 15px; } }
+
+  @media screen and (min-width: 992px) and (min-width: 1200px) and (min-width: 1400px) {
+    #page_programme .popup .popup-content {
+      width: 1140px;
+      height: 685px; } }
+
   #page_programme .sub-menu {
     position: fixed;
     width: 100%;
@@ -694,6 +840,17 @@ html body {
             color: #e5c926; }
             #page_programme .sub-menu ul li a:hover:before {
               background-color: #e5c926; }
+        @media screen and (min-width: 992px) {
+          #page_programme .sub-menu ul li {
+            margin-right: 30px; } }
+  @media screen and (min-width: 992px) and (min-width: 1200px) {
+    #page_programme .sub-menu ul li {
+      margin-right: 48px; } }
+
+      @media screen and (min-width: 768px) {
+        #page_programme .sub-menu ul {
+          justify-content: center;
+          overflow: hidden; } }
   #page_programme .category {
     padding-top: 110px;
     margin-top: -90px;
@@ -701,15 +858,26 @@ html body {
     #page_programme .category .frame .category-text {
       color: white;
       padding-left: 30px;
-      position: relative; }
+      position: relative;
+      width: 100%; }
       #page_programme .category .frame .category-text .name {
         color: white;
         text-transform: uppercase;
         font-weight: 900;
         font-size: 26px; }
+        @media screen and (min-width: 992px) {
+          #page_programme .category .frame .category-text .name {
+            font-size: 38px; } }
+  @media screen and (min-width: 992px) and (min-width: 1400px) {
+    #page_programme .category .frame .category-text .name {
+      font-size: 54px; } }
+
       #page_programme .category .frame .category-text .intro {
         margin-top: 15px;
         line-height: 1.3em; }
+        @media screen and (min-width: 992px) {
+          #page_programme .category .frame .category-text .intro {
+            margin-top: 25px; } }
       #page_programme .category .frame .category-text:before {
         content: '';
         background-color: white;
@@ -718,20 +886,55 @@ html body {
         top: 1%;
         left: 0;
         width: 15px; }
+        @media screen and (min-width: 992px) {
+          #page_programme .category .frame .category-text:before {
+            width: 25px; } }
+  @media screen and (min-width: 992px) and (min-width: 1400px) {
+    #page_programme .category .frame .category-text:before {
+      top: 2%; } }
+
+      @media screen and (min-width: 992px) {
+        #page_programme .category .frame .category-text {
+          padding-left: 46px;
+          padding-right: 40px; } }
     #page_programme .category .frame .movie {
       margin-top: 20px; }
       #page_programme .category .frame .movie .video {
         width: 100%;
         height: 50vw; }
+        @media screen and (min-width: 992px) {
+          #page_programme .category .frame .movie .video {
+            height: 24vw;
+            max-height: 260px; } }
+  @media screen and (min-width: 992px) and (min-width: 1200px) {
+    #page_programme .category .frame .movie .video {
+      max-height: 298px; } }
+
+  @media screen and (min-width: 992px) and (min-width: 1200px) and (min-width: 1400px) {
+    #page_programme .category .frame .movie .video {
+      max-height: 326px; } }
+
+  @media screen and (min-width: 992px) and (min-width: 1200px) and (min-width: 1400px) and (min-width: 1600px) {
+    #page_programme .category .frame .movie .video {
+      max-height: 385px; } }
+
       #page_programme .category .frame .movie .name {
         margin-top: 10px;
         font-size: 18px;
         font-weight: 900; }
+        #page_programme .category .frame .movie .name * {
+          line-height: 1.5em; }
+        @media screen and (min-width: 1400px) {
+          #page_programme .category .frame .movie .name {
+            font-size: 22px; } }
       #page_programme .category .frame .movie .info {
         margin-top: 15px; }
+        @media screen and (min-width: 992px) {
+          #page_programme .category .frame .movie .info {
+            margin-top: 25px; } }
       #page_programme .category .frame .movie .tag-wrap {
         margin-top: 5px; }
-        #page_programme .category .frame .movie .tag-wrap a {
+        #page_programme .category .frame .movie .tag-wrap .tag {
           color: #e5c926; }
       #page_programme .category .frame .movie .button-wrap {
         margin-top: 10px;
@@ -741,18 +944,110 @@ html body {
           padding: 10px 20px;
           border: 1px solid white;
           font-weight: 900;
-          background-color: #122d7c; }
+          background-color: #122d7c;
+          cursor: pointer;
+          font-size: 14px; }
           #page_programme .category .frame .movie .button-wrap .button i {
             margin-left: 3px; }
           #page_programme .category .frame .movie .button-wrap .button:hover {
             background-color: white;
             color: #122d7c; }
+          @media screen and (min-width: 992px) {
+            #page_programme .category .frame .movie .button-wrap .button {
+              font-size: 16px; } }
+  @media screen and (min-width: 992px) and (min-width: 1400px) {
+    #page_programme .category .frame .movie .button-wrap .button {
+      font-size: 18px; } }
+
+        @media screen and (min-width: 992px) {
+          #page_programme .category .frame .movie .button-wrap {
+            margin-top: 20px; } }
+      @media screen and (min-width: 992px) {
+        #page_programme .category .frame .movie:nth-child(even) {
+          padding-right: 10px; } }
+  @media screen and (min-width: 992px) and (min-width: 1400px) {
+    #page_programme .category .frame .movie:nth-child(even) {
+      padding-right: 20px; } }
+
+      @media screen and (min-width: 992px) {
+        #page_programme .category .frame .movie:nth-child(odd) {
+          padding-left: 10px; } }
+  @media screen and (min-width: 992px) and (min-width: 1400px) {
+    #page_programme .category .frame .movie:nth-child(odd) {
+      padding-left: 20px; } }
+
+      @media screen and (min-width: 992px) {
+        #page_programme .category .frame .movie {
+          width: 50%;
+          margin-top: 50px; } }
+    @media screen and (min-width: 992px) {
+      #page_programme .category .frame {
+        display: flex;
+        flex-wrap: wrap; } }
+    @media screen and (min-width: 768px) {
+      #page_programme .category {
+        padding-top: 160px; } }
+  @media screen and (min-width: 768px) and (min-width: 992px) {
+    #page_programme .category {
+      padding-top: 180px;
+      margin-top: -50px; } }
+
+  @media screen and (min-width: 768px) and (min-width: 992px) and (min-width: 1400px) {
+    #page_programme .category {
+      padding-top: 215px; } }
+
   #page_programme #opening_film {
-    padding-top: 156px; }
+    padding-top: 156px;
+    z-index: 6; }
+    @media screen and (min-width: 992px) {
+      #page_programme #opening_film .frame .category-text:before {
+        height: 265px; } }
+  @media screen and (min-width: 992px) and (min-width: 1200px) {
+    #page_programme #opening_film .frame .category-text:before {
+      height: 245px; } }
+
+  @media screen and (min-width: 992px) and (min-width: 1200px) and (min-width: 1400px) {
+    #page_programme #opening_film .frame .category-text:before {
+      height: 305px; } }
+
+  @media screen and (min-width: 992px) and (min-width: 1200px) and (min-width: 1400px) and (min-width: 1600px) {
+    #page_programme #opening_film .frame .category-text:before {
+      height: 277px; } }
+
+    @media screen and (min-width: 992px) {
+      #page_programme #opening_film .frame .category-text {
+        width: 50%; } }
+    @media screen and (min-width: 992px) {
+      #page_programme #opening_film .frame .movie {
+        margin-top: 0;
+        padding: 0; } }
+    @media screen and (min-width: 768px) {
+      #page_programme #opening_film {
+        padding-top: 175px; } }
+  @media screen and (min-width: 768px) and (min-width: 1400px) {
+    #page_programme #opening_film {
+      padding-top: 230px;
+      margin-top: -137px; } }
+
+  #page_programme #human_rights {
+    z-index: 5; }
+  #page_programme #artists {
+    z-index: 4; }
+  #page_programme #explorer {
+    z-index: 3; }
+  #page_programme #short_film {
+    z-index: 2; }
   #page_programme #closing_film {
+    z-index: 1;
     padding-bottom: 60px; }
     #page_programme #closing_film .movie:last-child .video {
       background-image: url("../../library/assets/closing_film.jpg");
       background-size: cover; }
+    @media screen and (min-width: 1200px) {
+      #page_programme #closing_film {
+        padding-bottom: 100px; } }
+  @media screen and (min-width: 1200px) and (min-width: 1400px) {
+    #page_programme #closing_film {
+      padding-bottom: 150px; } }
 
 /*# sourceMappingURL=style.css.map */
