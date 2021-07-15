@@ -794,6 +794,8 @@ html body {
     #page_programme .popup .popup-content .content-wrap .director {
       width: 380px; } }
 
+        #page_programme .popup .popup-content .content-wrap#intro_taromak_eco_ogy .director .director-img {
+          width: 100%; }
         @media screen and (min-width: 992px) {
           #page_programme .popup .popup-content .content-wrap {
             display: flex; } }

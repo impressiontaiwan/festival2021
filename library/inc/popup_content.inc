@@ -66,11 +66,6 @@
         <div class="director-intro">
             <p>Born in Taipei 1987, LEE graduated from the Department of Advertising at the National Chengchi University and from the Graduate Institute of the Tainan National University of Arts. LEE now works as an independent documentary filmmaker and an assistant professor of communications management at the Shih Hsin University.</p>
         </div>
-        <div class="button-wrap">
-            <a href="" class="interview-btn">
-                <i class="fas fa-play-circle"></i> Watch the Interview
-            </a>
-        </div>
     </div>
 </div>
 
@@ -104,11 +99,6 @@
         <h3 class="director-name">WU Yu-ying</h3>
         <div class="director-intro">
             <p>WU began her career by collaborating as an editor with David SUTHERLAND on his FRONTLINE series, Country Boys, which aired on PBS in 2006 (IDFA). She was a co-editor on HBO's Run Granny Run ( SXSW 2007) and was also the editor on Sutherland's PBS series Kind Hearted Woman. She also co-produced Sutherland’s new film Marcos Doesn’t Live Here Anymore (2019).</p>
-        </div>
-        <div class="button-wrap">
-            <a href="" class="interview-btn">
-                <i class="fas fa-play-circle"></i> Watch the Interview
-            </a>
         </div>
     </div>
 </div>
@@ -294,17 +284,12 @@
     </div>
     <div class="content director">
         <div class="content-title">director</div>
-        <!-- <div class="director-img">
-            <img src="../library/assets/director_wwj.png" alt="" style="">
-        </div> -->
+        <div class="director-img">
+            <img src="../library/assets/director_lls.png" alt="" style="">
+        </div>
         <h3 class="director-name">LEE Li-shao</h3>
         <div class="director-intro">
             <p>LEE began shooting documentaries in 1991 and has completed more than 20 documentary features and shorts. He has received four Golden Harvest Awards, four Local Voice Film Festival awards, four official selections at Taiwan International Documentary Festival, three nominations at Taipei Film Festival as well as the Best Documentary award at Golden Horse Awards and many others abroad. In recent years, he is committed to making a trilogy about the Yunnan-Burma border area guerrillas.</p>
-        </div>
-        <div class="button-wrap">
-            <a href="" class="interview-btn">
-                <i class="fas fa-play-circle"></i> Watch the Interview
-            </a>
         </div>
     </div>
 </div>
@@ -339,11 +324,6 @@
         <h3 class="director-name">FU Tien-yu</h3>
         <div class="director-intro">
             <p>Born in 1973, FU received her M.A. in Media Ecology and Cinema Studies at New York University, and began filmmaking under the encouragement of director WU Nien-Jen. She often imaginatively transforms social issues into tender stories about women and explores characters' complex emotions.</p>
-        </div>
-        <div class="button-wrap">
-            <a href="" class="interview-btn">
-                <i class="fas fa-play-circle"></i> Watch the Interview
-            </a>
         </div>
     </div>
 </div>
@@ -417,11 +397,6 @@
         <div class="director-intro">
             <p>Born in 1930, LI is lauded as the godfather of Taiwan cinema for having made representative works across various genres in Taiwan’s film history, whether they be Healthy Realist melodramas, Chiung-yao’s romance adaptations, or epic narrations of local history. With huge success in the box office and with critics, LI was venerated as a great master before the generation of Taiwan New Cinema auteurs.</p>
         </div>
-        <div class="button-wrap">
-            <a href="" class="interview-btn">
-                <i class="fas fa-play-circle"></i> Watch the Interview
-            </a>
-        </div>
     </div>
 </div>
 
@@ -453,11 +428,6 @@
         <h3 class="director-name">LAU Kek-huat</h3>
         <div class="director-intro">
             <p>Malaysian filmmaker based in Taiwan. His debut film Boluomi, was in competition at Busan International Film Festival, New Currents section and Golden horse nominated for Best new director. The project won him the Tokyo Talent Award 2015,  Best Script Award in 2013 Taiwan and selected for La Fabrique. Cinema du monde. His short film Nia’s door won Best Short Film Award, Sonje Award in Busan International film festival, selected for 38th Clermont-Ferrand International Short Film Festival. Both his documentary Absent without leave and The Tree Remembers still face censorship challenges today in Malaysia. He is an alumnus of Golden Horse Academy and Berlinale & Tokyo Talents. Lau was also a jury and mentor for regional filmmaking events such as Doc Doc, Asiadoc, FFD, New Asian Scenery.</p>
-        </div>
-        <div class="button-wrap">
-            <a href="" class="interview-btn">
-                <i class="fas fa-play-circle"></i> Watch the Interview
-            </a>
         </div>
     </div>
 </div>
@@ -492,11 +462,6 @@
         <div class="director-intro">
             <p>Born and raised in Taipei, SU Cheh-shien holds a Masters in Arts from the National Taiwan University of the Arts. His first production, Hip-hop Storm won the Best Documentary award in the 47th Golden Horse Award ceremony. Fight for Justice, another of his documentaries, was screened in Taiwan cinemas in 2016. In 2020, he worked on a long feature film, Cordelia Scissors and also for the first time creating a short feature film, Nine Shots.</p>
         </div>
-        <div class="button-wrap">
-            <a href="" class="interview-btn">
-                <i class="fas fa-play-circle"></i> Watch the Interview
-            </a>
-        </div>
     </div>
 </div>
 
@@ -529,11 +494,6 @@
         <h3 class="director-name">Rina B. TSOU</h3>
         <div class="director-intro">
             <p>Filipina-Taiwanese filmmaker Rina B. TSOU studied filmmaking at the Motion Picture Department of National Taiwan University of Arts. Being of two lands, she has applied her sensibilities of two cultures to the issues raised in her films which have circulated international film festivals such as Cannes Critic’s Week, Busan International Film Festival and the acclaimed Golden Horse Awards in Taiwan. Based in Taipei, she is currently working on both fiction and documentary films, exploring possibilities of different narratives.</p>
-        </div>
-        <div class="button-wrap">
-            <a href="" class="interview-btn">
-                <i class="fas fa-play-circle"></i> Watch the Interview
-            </a>
         </div>
     </div>
 </div>
@@ -569,11 +529,6 @@
         <div class="director-intro">
             <p>Born in 1978 and graduated from the Department of Broadcasting and Television, National Chengchi University in Taiwan. After finishing the military service, he joined the Rice Film Studio and worked as screenwriter, director and producer. He has solid training in both creation and production. From 2008 LIAO began to work independently and participate in several film productions; His first TV series work One Summer Night, which has 5 Golden Bell Awards nominations. LIAO is also nominated for the Best Miniseries Director at Golden Bell Awards with the TV movie Cigarette Ends in 2014.</p>
         </div>
-        <div class="button-wrap">
-            <a href="" class="interview-btn">
-                <i class="fas fa-play-circle"></i> Watch the Interview
-            </a>
-        </div>
     </div>
 </div>
 
@@ -601,16 +556,11 @@
     <div class="content director">
         <div class="content-title">director</div>
         <div class="director-img">
-            <img src="../library/assets/director_rbt.png" alt="" style="">
+            <img src="../library/assets/director_seed.png" alt="" style="">
         </div>
         <h3 class="director-name">Seed Design</h3>
         <div class="director-intro">
             <p>Seed Design tries to harness the power of writing, painting, and doing things by hand. Our seeds are stories that remind us of the relationships between land, culture, and history and harvest the fruits of tradition, yielding knowledge of how to regard nature. With eyes brimming with natural curiosity and affection, we propose new appraisals and approaches. We hope to spread the beauty and goodness of every seed we sow around the world.</p>
-        </div>
-        <div class="button-wrap">
-            <a href="" class="interview-btn">
-                <i class="fas fa-play-circle"></i> Watch the Interview
-            </a>
         </div>
     </div>
 </div>
