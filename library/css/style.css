@@ -1052,4 +1052,175 @@ html body {
     #page_programme #closing_film {
       padding-bottom: 150px; } }
 
+#page_schedule .body-wrap .rotate-hint {
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 1233;
+  background-color: #122d7c;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px; }
+  #page_schedule .body-wrap .rotate-hint .hint .hint-img {
+    display: block;
+    width: 150px;
+    margin: auto; }
+  #page_schedule .body-wrap .rotate-hint .hint .hint-text {
+    text-align: center;
+    font-weight: 900;
+    font-size: 24px;
+    margin-top: 20px; }
+  @media screen and (min-width: 568px) {
+    #page_schedule .body-wrap .rotate-hint {
+      display: none; } }
+#page_schedule .body-wrap .frame .month {
+  font-weight: 700;
+  font-size: 32px;
+  text-align: center;
+  padding: 20px 0 20px 0; }
+  @media screen and (min-width: 768px) {
+    #page_schedule .body-wrap .frame .month {
+      padding: 40px 0;
+      margin-top: 12px; } }
+#page_schedule .body-wrap .frame .calender {
+  padding-bottom: 40px; }
+  #page_schedule .body-wrap .frame .calender ul li {
+    width: 100%; }
+    #page_schedule .body-wrap .frame .calender ul li.date ul.number-wrap {
+      display: flex;
+      justify-content: space-around; }
+      #page_schedule .body-wrap .frame .calender ul li.date ul.number-wrap li {
+        text-align: center; }
+    #page_schedule .body-wrap .frame .calender ul li.row {
+      background-color: rgba(255, 255, 255, 0.2);
+      height: 5vw;
+      margin: 2vw 0;
+      position: relative;
+      max-height: 55px; }
+      #page_schedule .body-wrap .frame .calender ul li.row .period {
+        position: relative; }
+        #page_schedule .body-wrap .frame .calender ul li.row .period .block {
+          width: 5vw;
+          height: 100%;
+          background-color: #f098b1; }
+        #page_schedule .body-wrap .frame .calender ul li.row .period .text {
+          font-weight: 900;
+          position: absolute;
+          left: calc(5vw + 10px);
+          top: 50%;
+          transform: translateY(-50%); }
+          @media screen and (min-width: 992px) {
+            #page_schedule .body-wrap .frame .calender ul li.row .period .text {
+              left: 75px; } }
+      @media screen and (min-width: 1200px) {
+        #page_schedule .body-wrap .frame .calender ul li.row {
+          margin: 22px 0; } }
+    #page_schedule .body-wrap .frame .calender ul li.prescreening .period .block {
+      max-width: 55px; }
+    #page_schedule .body-wrap .frame .calender ul li.opening {
+      padding-left: 34%; }
+      #page_schedule .body-wrap .frame .calender ul li.opening .period .block {
+        background-color: #e5c926;
+        max-width: 55px; }
+    #page_schedule .body-wrap .frame .calender ul li.film-first {
+      padding-left: 34%; }
+      #page_schedule .body-wrap .frame .calender ul li.film-first .period .block {
+        background-color: #2094a5;
+        width: 35vw; }
+        @media screen and (min-width: 992px) {
+          #page_schedule .body-wrap .frame .calender ul li.film-first .period .block {
+            max-width: 375px; } }
+  @media screen and (min-width: 992px) and (min-width: 1200px) {
+    #page_schedule .body-wrap .frame .calender ul li.film-first .period .block {
+      max-width: 415px; } }
+
+  @media screen and (min-width: 992px) and (min-width: 1200px) and (min-width: 1400px) {
+    #page_schedule .body-wrap .frame .calender ul li.film-first .period .block {
+      max-width: 460px; } }
+
+  @media screen and (min-width: 992px) and (min-width: 1200px) and (min-width: 1400px) and (min-width: 1600px) {
+    #page_schedule .body-wrap .frame .calender ul li.film-first .period .block {
+      max-width: 540px; } }
+
+      #page_schedule .body-wrap .frame .calender ul li.film-first .period .text {
+        left: 10px; }
+        @media screen and (min-width: 992px) {
+          #page_schedule .body-wrap .frame .calender ul li.film-first .period .text {
+            left: 20px; } }
+    #page_schedule .body-wrap .frame .calender ul li.film-second {
+      padding-left: 51%; }
+      #page_schedule .body-wrap .frame .calender ul li.film-second .period .block {
+        background-color: #e14c12;
+        width: 35vw; }
+        @media screen and (min-width: 992px) {
+          #page_schedule .body-wrap .frame .calender ul li.film-second .period .block {
+            max-width: 375px; } }
+  @media screen and (min-width: 992px) and (min-width: 1200px) {
+    #page_schedule .body-wrap .frame .calender ul li.film-second .period .block {
+      max-width: 415px; } }
+
+  @media screen and (min-width: 992px) and (min-width: 1200px) and (min-width: 1400px) {
+    #page_schedule .body-wrap .frame .calender ul li.film-second .period .block {
+      max-width: 460px; } }
+
+  @media screen and (min-width: 992px) and (min-width: 1200px) and (min-width: 1400px) and (min-width: 1600px) {
+    #page_schedule .body-wrap .frame .calender ul li.film-second .period .block {
+      max-width: 540px; } }
+
+      #page_schedule .body-wrap .frame .calender ul li.film-second .period .text {
+        left: 10px; }
+        @media screen and (min-width: 992px) {
+          #page_schedule .body-wrap .frame .calender ul li.film-second .period .text {
+            left: 20px; } }
+  #page_schedule .body-wrap .frame .calender .label-wrap .label {
+    display: flex;
+    margin-top: 20px; }
+    #page_schedule .body-wrap .frame .calender .label-wrap .label .block {
+      width: 5vw;
+      height: 5vw;
+      background-color: #f098b1;
+      max-width: 55px;
+      max-height: 55px; }
+    #page_schedule .body-wrap .frame .calender .label-wrap .label .text {
+      font-weight: 900;
+      margin-left: 10px;
+      line-height: 1.3em; }
+      @media screen and (min-width: 992px) {
+        #page_schedule .body-wrap .frame .calender .label-wrap .label .text {
+          margin-left: 15px; } }
+    #page_schedule .body-wrap .frame .calender .label-wrap .label:nth-child(1) {
+      align-items: center; }
+    #page_schedule .body-wrap .frame .calender .label-wrap .label:nth-child(2) {
+      align-items: center; }
+      #page_schedule .body-wrap .frame .calender .label-wrap .label:nth-child(2) .block {
+        background-color: #e5c926; }
+    #page_schedule .body-wrap .frame .calender .label-wrap .label:nth-child(3) .block {
+      background-color: #2094a5; }
+    #page_schedule .body-wrap .frame .calender .label-wrap .label:nth-child(4) .block {
+      background-color: #e14c12; }
+    @media screen and (min-width: 768px) {
+      #page_schedule .body-wrap .frame .calender .label-wrap .label {
+        margin-top: 40px; } }
+  @media screen and (min-width: 768px) and (min-width: 992px) {
+    #page_schedule .body-wrap .frame .calender .label-wrap .label {
+      width: 50%; } }
+
+  @media screen and (min-width: 768px) {
+    #page_schedule .body-wrap .frame .calender .label-wrap {
+      margin-top: 50px; } }
+  @media screen and (min-width: 768px) and (min-width: 992px) {
+    #page_schedule .body-wrap .frame .calender .label-wrap {
+      display: flex;
+      flex-wrap: wrap; } }
+
+  @media screen and (min-width: 992px) {
+    #page_schedule .body-wrap .frame .calender {
+      padding-bottom: 80px; } }
+  @media screen and (min-width: 992px) and (min-width: 1200px) {
+    #page_schedule .body-wrap .frame .calender {
+      margin-top: 20px; } }
+
 /*# sourceMappingURL=style.css.map */
