@@ -78,4 +78,10 @@ $(document).ready(function(){
 		$('body').removeClass('popup-show');
 		$('#page_programme .popup').hide();
 	});
+
+	//tickets
+	$('#page_tickets .faq ul li').click(function(){
+		$(this).toggleClass('display');
+		$(this).siblings().removeClass('display');
+	});
 });

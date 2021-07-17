@@ -1223,4 +1223,228 @@ html body {
     #page_schedule .body-wrap .frame .calender {
       margin-top: 20px; } }
 
+#page_tickets .frame .title-wrap {
+  padding: 40px 0 20px 0; }
+  #page_tickets .frame .title-wrap .title {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 6vw; }
+    @media screen and (min-width: 768px) {
+      #page_tickets .frame .title-wrap .title {
+        font-size: 34px; } }
+  @media screen and (min-width: 768px) and (min-width: 1200px) {
+    #page_tickets .frame .title-wrap .title {
+      font-size: 48px; } }
+
+  #page_tickets .frame .title-wrap .faq-title {
+    text-align: left;
+    font-weight: 900; }
+  @media screen and (min-width: 768px) {
+    #page_tickets .frame .title-wrap {
+      padding: 60px 0 20px 0; } }
+  @media screen and (min-width: 768px) and (min-width: 1200px) {
+    #page_tickets .frame .title-wrap {
+      padding: 80px 0 20px 0; } }
+
+#page_tickets .frame .ticket-btn {
+  display: block;
+  color: #122d7c;
+  background-color: white;
+  text-align: center;
+  padding: 30px 20px;
+  border: 10px solid #e5c926;
+  max-width: 288px;
+  margin: auto; }
+  #page_tickets .frame .ticket-btn .icon {
+    display: block;
+    font-size: 48px; }
+    #page_tickets .frame .ticket-btn .icon i {
+      transform: rotate(-45deg); }
+  #page_tickets .frame .ticket-btn .text {
+    display: block;
+    font-weight: 900;
+    font-size: 20px;
+    margin-top: 20px; }
+  #page_tickets .frame .ticket-btn:hover .icon {
+    animation: tada 1s infinite; }
+  @media screen and (min-width: 768px) {
+    #page_tickets .frame .ticket-btn {
+      margin-top: 20px; } }
+  @media screen and (min-width: 768px) and (min-width: 1200px) {
+    #page_tickets .frame .ticket-btn {
+      border-width: 15px;
+      margin-top: 40px; } }
+
+#page_tickets .frame .price .ticket-type {
+  padding-left: 10px;
+  border-left: 15px solid white;
+  margin-top: 30px; }
+  #page_tickets .frame .price .ticket-type .ticket-title {
+    font-weight: 900;
+    font-size: 18px; }
+    @media screen and (min-width: 992px) {
+      #page_tickets .frame .price .ticket-type .ticket-title {
+        font-size: 24px; } }
+  #page_tickets .frame .price .ticket-type .info {
+    margin-top: 5px; }
+    @media screen and (min-width: 768px) {
+      #page_tickets .frame .price .ticket-type .info {
+        margin-top: 10px; } }
+  @media screen and (min-width: 768px) and (min-width: 1200px) {
+    #page_tickets .frame .price .ticket-type .info {
+      margin-top: 20px; } }
+
+  @media screen and (min-width: 768px) {
+    #page_tickets .frame .price .ticket-type {
+      width: 50%; } }
+  @media screen and (min-width: 768px) and (min-width: 1200px) {
+    #page_tickets .frame .price .ticket-type {
+      border-width: 25px;
+      padding-left: 15px; } }
+
+@media screen and (min-width: 768px) {
+  #page_tickets .frame .price .early-bird {
+    padding-right: 20px; } }
+  @media screen and (min-width: 768px) and (min-width: 1600px) {
+    #page_tickets .frame .price .early-bird {
+      padding-right: 50px; } }
+
+@media screen and (min-width: 768px) {
+  #page_tickets .frame .price {
+    display: flex;
+    margin-top: 20px; } }
+  @media screen and (min-width: 768px) and (min-width: 1200px) {
+    #page_tickets .frame .price {
+      margin-top: 40px; } }
+
+#page_tickets .frame .notice {
+  border: 5px solid white;
+  padding: 20px;
+  margin-top: 30px; }
+  #page_tickets .frame .notice ul {
+    padding-left: 20px; }
+    #page_tickets .frame .notice ul li {
+      padding: 5px 0;
+      position: relative; }
+      #page_tickets .frame .notice ul li:before {
+        content: '';
+        position: absolute;
+        width: 10px;
+        height: 10px;
+        background-color: white;
+        left: -18px;
+        transform: translateY(3px); }
+        @media screen and (min-width: 1200px) {
+          #page_tickets .frame .notice ul li:before {
+            left: -24px; } }
+    @media screen and (min-width: 1200px) {
+      #page_tickets .frame .notice ul {
+        padding-left: 25px; } }
+  #page_tickets .frame .notice p.keep-in-mind {
+    font-weight: 900;
+    margin: 20px 0 10px 0;
+    font-size: 16px; }
+  @media screen and (min-width: 768px) {
+    #page_tickets .frame .notice {
+      margin-top: 50px; } }
+  @media screen and (min-width: 768px) and (min-width: 1200px) {
+    #page_tickets .frame .notice {
+      padding: 40px 30px;
+      border-width: 8px;
+      margin-top: 70px; } }
+
+#page_tickets .frame .important {
+  display: flex;
+  flex-direction: column-reverse;
+  margin-top: 20px; }
+  #page_tickets .frame .important .img {
+    padding: 5px 20px;
+    background-color: white;
+    width: 315px;
+    margin-top: 20px; }
+    #page_tickets .frame .important .img img {
+      width: 100%; }
+    @media screen and (min-width: 768px) {
+      #page_tickets .frame .important .img {
+        margin-top: 0;
+        flex: none; } }
+  #page_tickets .frame .important .text h2 {
+    color: #e5c926;
+    text-transform: uppercase; }
+  #page_tickets .frame .important .text p {
+    margin-top: 10px; }
+  @media screen and (min-width: 768px) {
+    #page_tickets .frame .important .text {
+      margin-left: 20px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center; } }
+  @media screen and (min-width: 768px) and (min-width: 1200px) {
+    #page_tickets .frame .important .text {
+      margin-left: 30px; } }
+
+  @media screen and (min-width: 768px) {
+    #page_tickets .frame .important {
+      flex-direction: row;
+      margin: 0;
+      padding: 60px 0 60px 0; } }
+#page_tickets .frame .faq ul li {
+  display: flex;
+  border: 3px solid white;
+  padding: 10px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  font-size: 16px; }
+  #page_tickets .frame .faq ul li:hover {
+    background-color: white;
+    color: #122d7c; }
+  #page_tickets .frame .faq ul li .mark {
+    width: 25px;
+    flex: none; }
+    #page_tickets .frame .faq ul li .mark i.fa-minus {
+      display: none; }
+    @media screen and (min-width: 1200px) {
+      #page_tickets .frame .faq ul li .mark {
+        width: 35px; } }
+  #page_tickets .frame .faq ul li .text .question {
+    font-weight: 700; }
+  #page_tickets .frame .faq ul li .text .answer {
+    display: none;
+    margin-top: 10px; }
+  @media screen and (min-width: 1200px) {
+    #page_tickets .frame .faq ul li {
+      font-size: 20px;
+      padding: 20px;
+      border-width: 5px; } }
+#page_tickets .frame .faq ul li.display {
+  color: #122d7c;
+  background-color: white; }
+  #page_tickets .frame .faq ul li.display i.fa-plus {
+    display: none; }
+  #page_tickets .frame .faq ul li.display i.fa-minus {
+    display: block; }
+  #page_tickets .frame .faq ul li.display .text .answer {
+    display: block; }
+#page_tickets .frame .contact {
+  padding-bottom: 60px; }
+  #page_tickets .frame .contact p {
+    font-weight: 700;
+    line-height: 2em;
+    font-size: 18px; }
+    #page_tickets .frame .contact p a {
+      color: white;
+      font-size: 26px;
+      margin-left: 10px; }
+      #page_tickets .frame .contact p a:hover {
+        color: #e5c926; }
+      #page_tickets .frame .contact p a i {
+        position: relative; }
+        #page_tickets .frame .contact p a i:before {
+          position: absolute;
+          top: 50%;
+          transform: translateY(-70%); }
+  @media screen and (min-width: 1200px) {
+    #page_tickets .frame .contact {
+      padding-bottom: 110px; } }
+
 /*# sourceMappingURL=style.css.map */
