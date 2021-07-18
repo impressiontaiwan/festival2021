@@ -1870,6 +1870,17 @@ html{
 				}
 				.event-content{
 					display: none;
+					.intro{
+						p{
+							a{
+								color: $blue;
+								text-decoration: underline;
+								&:hover{
+									text-decoration: none;
+								}
+							}
+						}
+					}
 				}
 				@media screen and (min-width: 992px){
 					display: flex;

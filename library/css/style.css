@@ -1552,6 +1552,11 @@ html body {
           margin: 0; } }
     #page_events .event-detail .frame .event .event-content {
       display: none; }
+      #page_events .event-detail .frame .event .event-content .intro p a {
+        color: #122d7c;
+        text-decoration: underline; }
+        #page_events .event-detail .frame .event .event-content .intro p a:hover {
+          text-decoration: none; }
     @media screen and (min-width: 992px) {
       #page_events .event-detail .frame .event {
         display: flex;
