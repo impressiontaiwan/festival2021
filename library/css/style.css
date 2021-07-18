@@ -1443,8 +1443,282 @@ html body {
           position: absolute;
           top: 50%;
           transform: translateY(-70%); }
+    @media screen and (min-width: 1200px) {
+      #page_tickets .frame .contact p {
+        font-size: 20px; } }
   @media screen and (min-width: 1200px) {
     #page_tickets .frame .contact {
       padding-bottom: 110px; } }
+
+#page_events .event-overview {
+  padding: 40px 0; }
+  #page_events .event-overview .frame .event {
+    border: 5px solid white;
+    margin-bottom: 20px;
+    cursor: pointer; }
+    #page_events .event-overview .frame .event .event-text {
+      padding: 10px;
+      height: 315px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between; }
+      #page_events .event-overview .frame .event .event-text .event-name {
+        font-size: 22px;
+        padding-top: 5px;
+        line-height: 1.3em; }
+        @media screen and (min-width: 1600px) {
+          #page_events .event-overview .frame .event .event-text .event-name {
+            font-size: 24px; } }
+      #page_events .event-overview .frame .event .event-text .event-info {
+        text-align: right; }
+        #page_events .event-overview .frame .event .event-text .event-info .arrow {
+          width: 62px; }
+        #page_events .event-overview .frame .event .event-text .event-info .date {
+          font-size: 32px;
+          font-weight: 700;
+          margin-top: 30px; }
+        #page_events .event-overview .frame .event .event-text .event-info .place {
+          margin-top: 15px; }
+      @media screen and (min-width: 1600px) {
+        #page_events .event-overview .frame .event .event-text {
+          height: 330px; } }
+    #page_events .event-overview .frame .event .event-img {
+      margin: 10px;
+      width: calc(100% - 20px);
+      height: 300px;
+      overflow: hidden;
+      display: block; }
+      #page_events .event-overview .frame .event .event-img img {
+        width: 100%;
+        height: 100%;
+        display: block;
+        object-fit: cover;
+        transition: all 0.3s ease; }
+      @media screen and (min-width: 1400px) {
+        #page_events .event-overview .frame .event .event-img {
+          height: 340px; } }
+  @media screen and (min-width: 1400px) and (min-width: 1600px) {
+    #page_events .event-overview .frame .event .event-img {
+      height: 380px; } }
+
+    #page_events .event-overview .frame .event:hover {
+      background-color: white;
+      color: #122d7c; }
+      #page_events .event-overview .frame .event:hover .event-text .event-info .arrow line, #page_events .event-overview .frame .event:hover .event-text .event-info .arrow polyline {
+        stroke: #122d7c; }
+      #page_events .event-overview .frame .event:hover .event-img img {
+        transform: scale(1.1); }
+    @media screen and (min-width: 500px) {
+      #page_events .event-overview .frame .event {
+        width: 49%; } }
+  @media screen and (min-width: 500px) and (min-width: 992px) {
+    #page_events .event-overview .frame .event {
+      width: 24%; } }
+
+  @media screen and (min-width: 500px) and (min-width: 992px) and (min-width: 1600px) {
+    #page_events .event-overview .frame .event {
+      border-width: 7px; } }
+
+  @media screen and (min-width: 500px) {
+    #page_events .event-overview .frame {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap; } }
+  @media screen and (min-width: 1200px) {
+    #page_events .event-overview {
+      padding: 60px 0; } }
+#page_events .event-detail {
+  display: none;
+  padding: 40px 0; }
+  #page_events .event-detail .frame .event {
+    padding: 10px;
+    border: 5px solid white;
+    margin-bottom: 20px;
+    position: relative;
+    cursor: pointer; }
+    #page_events .event-detail .frame .event .event-name {
+      font-size: 22px; }
+    #page_events .event-detail .frame .event .event-date {
+      display: flex;
+      font-weight: 900;
+      font-size: 32px;
+      justify-content: flex-end;
+      margin-top: 20px; }
+      #page_events .event-detail .frame .event .event-date .arrow {
+        width: 50px;
+        margin-left: 10px; }
+      @media screen and (min-width: 992px) {
+        #page_events .event-detail .frame .event .event-date {
+          margin: 0; } }
+    #page_events .event-detail .frame .event .event-content {
+      display: none; }
+    @media screen and (min-width: 992px) {
+      #page_events .event-detail .frame .event {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 20px; } }
+    #page_events .event-detail .frame .event:hover {
+      background-color: white;
+      color: #122d7c; }
+      #page_events .event-detail .frame .event:hover .arrow .arrow-head, #page_events .event-detail .frame .event:hover .arrow .arrow-body {
+        stroke: #122d7c; }
+  #page_events .event-detail .frame .event.expand {
+    background-color: white;
+    cursor: auto; }
+    #page_events .event-detail .frame .event.expand .event-name {
+      font-size: 32px;
+      color: #122d7c;
+      font-weight: 700;
+      padding-right: 40px; }
+    #page_events .event-detail .frame .event.expand .event-date {
+      display: none; }
+    #page_events .event-detail .frame .event.expand .event-content {
+      display: block;
+      margin-top: 20px; }
+      #page_events .event-detail .frame .event.expand .event-content .close-btn {
+        width: 40px;
+        position: absolute;
+        right: 10px;
+        top: 10px;
+        cursor: pointer;
+        transition: all 0.3s ease; }
+        #page_events .event-detail .frame .event.expand .event-content .close-btn img {
+          width: 100%; }
+        #page_events .event-detail .frame .event.expand .event-content .close-btn:hover {
+          transform: rotate(90deg); }
+      @media screen and (min-width: 992px) {
+        #page_events .event-detail .frame .event.expand .event-content {
+          display: flex; } }
+    @media screen and (min-width: 992px) {
+      #page_events .event-detail .frame .event.expand {
+        padding: 20px;
+        display: block; } }
+  #page_events .event-detail .frame #event_prescreening .event-content .map {
+    width: 100%;
+    height: 50vw; }
+    @media screen and (min-width: 992px) {
+      #page_events .event-detail .frame #event_prescreening .event-content .map {
+        width: 250px;
+        height: 250px;
+        flex: none; } }
+  #page_events .event-detail .frame #event_prescreening .event-content .intro {
+    color: black;
+    margin-top: 20px; }
+    #page_events .event-detail .frame #event_prescreening .event-content .intro p {
+      margin-bottom: 20px; }
+    @media screen and (min-width: 992px) {
+      #page_events .event-detail .frame #event_prescreening .event-content .intro {
+        margin-top: 0;
+        padding: 0 40px; } }
+  #page_events .event-detail .frame #event_opening .event-content .poster {
+    width: 100%;
+    height: 50vw; }
+    #page_events .event-detail .frame #event_opening .event-content .poster img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover; }
+    @media screen and (min-width: 992px) {
+      #page_events .event-detail .frame #event_opening .event-content .poster {
+        width: 250px;
+        height: 250px;
+        flex: none; } }
+  #page_events .event-detail .frame #event_opening .event-content .intro {
+    color: black;
+    margin-top: 20px; }
+    #page_events .event-detail .frame #event_opening .event-content .intro p {
+      margin-bottom: 20px; }
+    @media screen and (min-width: 992px) {
+      #page_events .event-detail .frame #event_opening .event-content .intro {
+        margin-top: 0;
+        padding: 0 40px; } }
+  #page_events .event-detail .frame #event_forum .event-content .speaker-wrap .speaker {
+    margin-bottom: 20px; }
+    #page_events .event-detail .frame #event_forum .event-content .speaker-wrap .speaker .photo {
+      width: 200px;
+      height: 200px; }
+      #page_events .event-detail .frame #event_forum .event-content .speaker-wrap .speaker .photo img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover; }
+    #page_events .event-detail .frame #event_forum .event-content .speaker-wrap .speaker .name {
+      font-size: 20px;
+      font-weight: 900;
+      color: black;
+      margin-top: 10px; }
+  #page_events .event-detail .frame #event_forum .event-content .intro {
+    color: black;
+    margin-top: 20px; }
+    #page_events .event-detail .frame #event_forum .event-content .intro p {
+      margin-bottom: 20px; }
+    #page_events .event-detail .frame #event_forum .event-content .intro .button-wrap {
+      padding: 10px 0;
+      margin: 20px 0; }
+      #page_events .event-detail .frame #event_forum .event-content .intro .button-wrap .button {
+        border: 1px solid black;
+        font-size: 18px;
+        font-weight: 700;
+        color: black;
+        padding: 10px 15px; }
+        #page_events .event-detail .frame #event_forum .event-content .intro .button-wrap .button:hover {
+          background-color: black;
+          color: white; }
+    @media screen and (min-width: 768px) {
+      #page_events .event-detail .frame #event_forum .event-content .intro {
+        margin-top: 0;
+        padding: 0 40px; } }
+  @media screen and (min-width: 768px) {
+    #page_events .event-detail .frame #event_forum.expand .event-content {
+      display: flex; } }
+  #page_events .event-detail .frame #event_director .event-content .director {
+    margin-bottom: 30px; }
+    #page_events .event-detail .frame #event_director .event-content .director .photo {
+      width: 250px;
+      height: 250px;
+      flex: none; }
+      #page_events .event-detail .frame #event_director .event-content .director .photo img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover; }
+    #page_events .event-detail .frame #event_director .event-content .director .intro {
+      color: black;
+      margin-top: 20px; }
+      #page_events .event-detail .frame #event_director .event-content .director .intro .name {
+        font-size: 24px;
+        font-weight: 700;
+        margin-bottom: 10px; }
+      #page_events .event-detail .frame #event_director .event-content .director .intro p a {
+        color: #122d7c;
+        text-decoration: underline; }
+        #page_events .event-detail .frame #event_director .event-content .director .intro p a:hover {
+          text-decoration: none; }
+      @media screen and (min-width: 992px) {
+        #page_events .event-detail .frame #event_director .event-content .director .intro {
+          margin-top: 0;
+          padding: 0 40px;
+          display: flex;
+          flex-direction: column;
+          justify-content: center; } }
+    #page_events .event-detail .frame #event_director .event-content .director .button-wrap {
+      padding: 10px 0;
+      margin-top: 20px; }
+      #page_events .event-detail .frame #event_director .event-content .director .button-wrap .button {
+        border: 1px solid black;
+        font-size: 18px;
+        font-weight: 700;
+        color: black;
+        padding: 10px 15px; }
+        #page_events .event-detail .frame #event_director .event-content .director .button-wrap .button:hover {
+          background-color: black;
+          color: white; }
+    @media screen and (min-width: 992px) {
+      #page_events .event-detail .frame #event_director .event-content .director {
+        display: flex; } }
+  @media screen and (min-width: 992px) {
+    #page_events .event-detail .frame #event_director.expand .event-content {
+      display: block; } }
+  @media screen and (min-width: 1200px) {
+    #page_events .event-detail {
+      padding: 60px 0; } }
 
 /*# sourceMappingURL=style.css.map */

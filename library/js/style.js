@@ -84,4 +84,22 @@ $(document).ready(function(){
 		$(this).toggleClass('display');
 		$(this).siblings().removeClass('display');
 	});
+
+	//event
+	$('#page_events .event-overview .event').click(function(){
+		$('.event-overview').hide();
+		$('.event-detail').show();
+		$('#page_events .event-detail .event').removeClass('expand');
+		var target = $(this).attr('data-target');
+		$(target).addClass('expand');
+	});
+	$('#page_events .event-detail .close-btn').click(function(){
+		$('#page_events .event-detail .event').removeClass('expand');
+		$('#page_events .event-detail').hide();
+		$('#page_events .event-overview').show();
+	});
+	$('#page_events .event-detail .event').click(function(){
+		$('#page_events .event-detail .event').removeClass('expand');
+		$(this).toggleClass('expand');
+	});
 });
