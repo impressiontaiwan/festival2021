@@ -1778,6 +1778,10 @@ html body {
           width: 100%;
           height: 100%;
           object-fit: cover; }
+        @media screen and (min-width: 1600px) {
+          #page_about .content-wrap .panel .panel-content .team-members .member .photo {
+            width: 200px;
+            height: 200px; } }
       #page_about .content-wrap .panel .panel-content .team-members .member .position {
         font-size: 14px; }
       #page_about .content-wrap .panel .panel-content .team-members .member .name {
@@ -1802,6 +1806,10 @@ html body {
     #page_about .content-wrap .panel .panel-content .team-members .member {
       width: calc(100% / 3); } }
 
+  @media screen and (min-width: 568px) and (min-width: 768px) and (min-width: 992px) and (min-width: 1400px) {
+    #page_about .content-wrap .panel .panel-content .team-members .member {
+      width: 25%; } }
+
     @media screen and (min-width: 568px) {
       #page_about .content-wrap .panel .panel-content .team-members {
         display: flex;
@@ -1811,9 +1819,20 @@ html body {
       margin: auto;
       margin-top: 20px; } }
 
+  @media screen and (min-width: 568px) and (min-width: 768px) and (min-width: 1200px) {
+    #page_about .content-wrap .panel .panel-content .team-members {
+      margin-top: 30px; } }
+
   @media screen and (min-width: 1200px) {
     #page_about .content-wrap .panel .panel-content#TFFB {
       padding-bottom: 200px; } }
+  @media screen and (min-width: 1400px) {
+    #page_about .content-wrap .panel .panel-content#impression .team-members .member .photo {
+      width: 220px;
+      height: 220px; } }
+  @media screen and (min-width: 1400px) {
+    #page_about .content-wrap .panel .panel-content#impression .team-members .member {
+      width: 33%; } }
   #page_about .content-wrap .panel .panel-content#impression .contact {
     font-size: 18px;
     font-weight: 700;

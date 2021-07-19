@@ -71,7 +71,7 @@
     		</div>
     		<p class="position">Web Front-end Design</p>
     		<p class="name">Samantha Lin</p>
-    		<div class="link"><a href="https://be.net/samanthalin" class="">be.net/samanthalin</a></div>
+    		<div class="link"><a href="https://www.behance.net/samanthalin" class="" target="_blank">be.net/samanthalin</a></div>
     	</div>
     	<div class="member">
     		<div class="photo">

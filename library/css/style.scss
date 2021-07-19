@@ -2182,6 +2182,10 @@ html{
 								height: 100%;
 								object-fit: cover;
 							}
+							@media screen and (min-width: 1600px){
+								width: 200px;
+								height: 200px;
+							}
 						}
 						.position{
 							font-size: 14px;
@@ -2206,6 +2210,9 @@ html{
 								width: calc((100% - 40px)/3);
 								@media screen and (min-width: 992px){
 									width: calc(100% / 3);
+									@media screen and (min-width: 1400px){
+										width: 25%;
+									}
 								}
 							}
 						}
@@ -2216,6 +2223,9 @@ html{
 						@media screen and (min-width: 768px){
 							margin: auto;
 							margin-top: 20px;
+							@media screen and (min-width: 1200px) {
+								margin-top: 30px;
+							}
 						}
 					}
 				}//team-members
@@ -2225,6 +2235,19 @@ html{
 					}
 				}
 				&#impression{
+					.team-members{
+						.member{
+							.photo{
+								@media screen and (min-width: 1400px) {
+									width: 220px;
+									height: 220px;
+								}
+							}
+							@media screen and (min-width: 1400px) {
+								width: 33%;
+							}
+						}
+					}	
 					.contact{
 						font-size: 18px;
 						font-weight: 700;
