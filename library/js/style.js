@@ -102,4 +102,15 @@ $(document).ready(function(){
 		$('#page_events .event-detail .event').removeClass('expand');
 		$(this).toggleClass('expand');
 	});
+
+	//about
+
+	$('#page_about .submenu .menu-item').click(function(){
+		$(this).addClass('active');
+		$(this).siblings().removeClass('active');
+		var contentID = $(this).attr('href');
+		var target = '../library/inc/about_content.inc ' + contentID;
+		$('#page_about .panel').load(target);
+		return false;
+	});
 });

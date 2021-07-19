@@ -1576,6 +1576,9 @@ html body {
       color: #122d7c;
       font-weight: 700;
       padding-right: 40px; }
+      @media screen and (min-width: 1400px) {
+        #page_events .event-detail .frame .event.expand .event-name {
+          font-size: 48px; } }
     #page_events .event-detail .frame .event.expand .event-date {
       display: none; }
     #page_events .event-detail .frame .event.expand .event-content {
@@ -1640,8 +1643,8 @@ html body {
   #page_events .event-detail .frame #event_forum .event-content .speaker-wrap .speaker {
     margin-bottom: 20px; }
     #page_events .event-detail .frame #event_forum .event-content .speaker-wrap .speaker .photo {
-      width: 200px;
-      height: 200px; }
+      width: 250px;
+      height: 250px; }
       #page_events .event-detail .frame #event_forum .event-content .speaker-wrap .speaker .photo img {
         width: 100%;
         height: 100%;
@@ -1725,5 +1728,151 @@ html body {
   @media screen and (min-width: 1200px) {
     #page_events .event-detail {
       padding: 60px 0; } }
+
+#page_about .content-wrap .submenu {
+  padding: 30px 0 10px 0; }
+  #page_about .content-wrap .submenu .menu-item {
+    color: white;
+    display: block;
+    padding: 5px;
+    padding-left: 15px;
+    border-left: 15px solid white;
+    font-size: 20;
+    font-weight: 900;
+    margin-bottom: 10px; }
+    #page_about .content-wrap .submenu .menu-item.active {
+      color: #e5c926;
+      border-color: #e5c926; }
+    @media screen and (min-width: 992px) {
+      #page_about .content-wrap .submenu .menu-item {
+        margin-bottom: 25px; } }
+#page_about .content-wrap .panel {
+  background-color: white;
+  padding: 10px;
+  color: black;
+  margin-bottom: 40px; }
+  #page_about .content-wrap .panel .panel-content .title {
+    color: #122d7c;
+    font-size: 38px;
+    font-weight: 900; }
+  #page_about .content-wrap .panel .panel-content .intro {
+    margin-top: 10px; }
+    #page_about .content-wrap .panel .panel-content .intro p {
+      margin-bottom: 10px;
+      line-height: 1.3em; }
+    @media screen and (min-width: 992px) {
+      #page_about .content-wrap .panel .panel-content .intro {
+        margin-top: 20px; } }
+  #page_about .content-wrap .panel .panel-content .team-members {
+    margin-top: 20px;
+    text-align: center; }
+    #page_about .content-wrap .panel .panel-content .team-members .member {
+      margin-bottom: 30px; }
+      #page_about .content-wrap .panel .panel-content .team-members .member .photo {
+        width: 155px;
+        height: 155px;
+        margin: auto;
+        margin-bottom: 10px;
+        overflow: hidden; }
+        #page_about .content-wrap .panel .panel-content .team-members .member .photo img {
+          width: 100%;
+          height: 100%;
+          object-fit: cover; }
+      #page_about .content-wrap .panel .panel-content .team-members .member .position {
+        font-size: 14px; }
+      #page_about .content-wrap .panel .panel-content .team-members .member .name {
+        font-size: 16px;
+        font-weight: 700;
+        margin-top: 5px; }
+      #page_about .content-wrap .panel .panel-content .team-members .member .link {
+        text-align: center;
+        margin-top: 5px; }
+        #page_about .content-wrap .panel .panel-content .team-members .member .link a {
+          color: #989898;
+          text-decoration: underline;
+          font-size: 12px; }
+      @media screen and (min-width: 568px) {
+        #page_about .content-wrap .panel .panel-content .team-members .member {
+          width: calc(50% - 5px); } }
+  @media screen and (min-width: 568px) and (min-width: 768px) {
+    #page_about .content-wrap .panel .panel-content .team-members .member {
+      width: calc((100% - 40px)/3); } }
+
+  @media screen and (min-width: 568px) and (min-width: 768px) and (min-width: 992px) {
+    #page_about .content-wrap .panel .panel-content .team-members .member {
+      width: calc(100% / 3); } }
+
+    @media screen and (min-width: 568px) {
+      #page_about .content-wrap .panel .panel-content .team-members {
+        display: flex;
+        flex-wrap: wrap; } }
+  @media screen and (min-width: 568px) and (min-width: 768px) {
+    #page_about .content-wrap .panel .panel-content .team-members {
+      margin: auto;
+      margin-top: 20px; } }
+
+  @media screen and (min-width: 1200px) {
+    #page_about .content-wrap .panel .panel-content#TFFB {
+      padding-bottom: 200px; } }
+  #page_about .content-wrap .panel .panel-content#impression .contact {
+    font-size: 18px;
+    font-weight: 700;
+    color: #122d7c;
+    text-align: center; }
+    #page_about .content-wrap .panel .panel-content#impression .contact .button-wrap {
+      margin-top: 20px;
+      padding: 10px 0;
+      margin-bottom: 30px; }
+      #page_about .content-wrap .panel .panel-content#impression .contact .button-wrap .button {
+        border: 3px solid #122d7c;
+        padding: 10px;
+        color: #122d7c;
+        font-size: 14px; }
+        #page_about .content-wrap .panel .panel-content#impression .contact .button-wrap .button .icon {
+          font-size: 24px; }
+          #page_about .content-wrap .panel .panel-content#impression .contact .button-wrap .button .icon i {
+            transform: translateY(5px); }
+            @media screen and (min-width: 1200px) {
+              #page_about .content-wrap .panel .panel-content#impression .contact .button-wrap .button .icon i {
+                transform: translateY(7px); } }
+          @media screen and (min-width: 1200px) {
+            #page_about .content-wrap .panel .panel-content#impression .contact .button-wrap .button .icon {
+              font-size: 32px; } }
+        #page_about .content-wrap .panel .panel-content#impression .contact .button-wrap .button .text {
+          margin-left: 10px; }
+        #page_about .content-wrap .panel .panel-content#impression .contact .button-wrap .button:hover {
+          background-color: #122d7c;
+          color: white; }
+        @media screen and (min-width: 1200px) {
+          #page_about .content-wrap .panel .panel-content#impression .contact .button-wrap .button {
+            padding: 14px 20px;
+            font-size: 18px; } }
+    @media screen and (min-width: 768px) {
+      #page_about .content-wrap .panel .panel-content#impression .contact {
+        margin-top: 30px; } }
+  @media screen and (min-width: 768px) {
+    #page_about .content-wrap .panel {
+      padding: 40px; } }
+  @media screen and (min-width: 768px) and (min-width: 992px) {
+    #page_about .content-wrap .panel {
+      width: 610px; } }
+
+  @media screen and (min-width: 768px) and (min-width: 992px) and (min-width: 1200px) {
+    #page_about .content-wrap .panel {
+      width: 720px; } }
+
+  @media screen and (min-width: 768px) and (min-width: 992px) and (min-width: 1200px) and (min-width: 1400px) {
+    #page_about .content-wrap .panel {
+      width: 840px; } }
+
+  @media screen and (min-width: 768px) and (min-width: 992px) and (min-width: 1200px) and (min-width: 1400px) and (min-width: 1600px) {
+    #page_about .content-wrap .panel {
+      width: 1030px; } }
+
+@media screen and (min-width: 992px) {
+  #page_about .content-wrap {
+    display: flex;
+    padding: 60px 0 40px 0;
+    justify-content: space-between; } }
 
 /*# sourceMappingURL=style.css.map */

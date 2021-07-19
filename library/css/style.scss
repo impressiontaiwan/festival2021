@@ -1906,6 +1906,9 @@ html{
 					color: $blue;
 					font-weight: 700;
 					padding-right: 40px;
+					@media screen and (min-width: 1400px) {
+						font-size: 48px;
+					}
 				}
 				.event-date{
 					display: none;
@@ -1995,8 +1998,8 @@ html{
 						.speaker{
 							margin-bottom: 20px;
 							.photo{
-								width: 200px;
-								height: 200px;
+								width: 250px;
+								height: 250px;
 								img{
 									width: 100%;
 									height: 100%;
@@ -2118,4 +2121,175 @@ html{
 			padding: 60px 0;
 		}
 	}//event-detail
+}//#page_events
+
+#page_about{
+	.content-wrap{
+		.submenu{
+			padding: 30px 0 10px 0;
+			.menu-item{
+				color: white;
+				display: block;
+				padding: 5px;
+				padding-left: 15px;
+				border-left: 15px solid white;
+				font-size: 20;
+				font-weight: 900;
+				margin-bottom: 10px;
+				&.active{
+					color: $yellow;
+					border-color: $yellow;
+				}
+				@media screen and (min-width: 992px) {
+					margin-bottom: 25px;
+				}
+			}
+		}//submenu
+		.panel{
+			background-color: white;
+			padding: 10px;
+			color: black;
+			margin-bottom: 40px;
+			.panel-content{
+				.title{
+					color: $blue;
+					font-size: 38px;
+					font-weight: 900;
+				}
+				.intro{
+					margin-top: 10px;
+					p{
+						margin-bottom: 10px;
+						line-height: 1.3em;
+					}
+					@media screen and (min-width: 992px){
+						margin-top: 20px;
+					}
+				}
+				.team-members{
+					margin-top: 20px;
+					text-align: center;
+					.member{
+						margin-bottom: 30px;
+						.photo{
+							width: 155px;
+							height: 155px;
+							margin: auto;
+							margin-bottom: 10px;
+							overflow: hidden;
+							img{
+								width: 100%;
+								height: 100%;
+								object-fit: cover;
+							}
+						}
+						.position{
+							font-size: 14px;
+						}
+						.name{
+							font-size: 16px;
+							font-weight: 700;
+							margin-top: 5px;
+						}
+						.link{
+							text-align: center;
+							margin-top: 5px;
+							a{
+								color: #989898;
+								text-decoration: underline;
+								font-size: 12px;
+							}
+						}
+						@media screen and (min-width: 568px) {
+							width: calc(50% - 5px);
+							@media screen and (min-width: 768px) {
+								width: calc((100% - 40px)/3);
+								@media screen and (min-width: 992px){
+									width: calc(100% / 3);
+								}
+							}
+						}
+					}//member
+					@media screen and (min-width: 568px) {
+						display: flex;
+						flex-wrap: wrap;
+						@media screen and (min-width: 768px){
+							margin: auto;
+							margin-top: 20px;
+						}
+					}
+				}//team-members
+				&#TFFB{
+					@media screen and (min-width: 1200px) {
+						padding-bottom: 200px;
+					}
+				}
+				&#impression{
+					.contact{
+						font-size: 18px;
+						font-weight: 700;
+						color: $blue;
+						text-align: center;
+						.button-wrap{
+							margin-top: 20px;
+							padding: 10px 0;
+							margin-bottom: 30px;
+							.button{
+								border: 3px solid $blue;
+								padding: 10px;
+								color: $blue;
+								font-size: 14px;
+								.icon{
+									font-size: 24px;
+									i{
+										transform: translateY(5px);
+										@media screen and (min-width: 1200px){
+											transform: translateY(7px);
+										}
+									}
+									@media screen and (min-width: 1200px){
+										font-size: 32px;
+									}
+								}
+								.text{
+									margin-left: 10px;
+								}
+								&:hover{
+									background-color: $blue;
+									color: white;
+								}
+								@media screen and (min-width: 1200px){
+									padding: 14px 20px;
+									font-size: 18px;
+								}
+							}//button
+						}
+						@media screen and (min-width: 768px) {
+							margin-top: 30px;
+						}
+					}//contact
+				}//#impression
+			}//panel-content
+			@media screen and (min-width: 768px) {
+				padding: 40px;
+				@media screen and (min-width: 992px){
+					width: 610px;
+					@media screen and (min-width: 1200px) {
+						width: 720px;
+						@media screen and (min-width: 1400px){
+							width: 840px;
+							@media screen and (min-width: 1600px) {
+								width: 1030px;
+							}
+						}
+					}
+				}
+			}
+		}//panel
+		@media screen and (min-width: 992px){
+			display: flex;
+			padding: 60px 0 40px 0;
+			justify-content: space-between;
+		}
+	}//content-wrap
 }
