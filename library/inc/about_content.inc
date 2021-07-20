@@ -128,7 +128,7 @@
     <div class="contact">
     	<p>If you have further questions, please write an e-mail to</p>
     	<div class="button-wrap">
-    		<a href="" class="button">
+    		<a href="mailto:impression.taiwan@gmail.com" class="button">
     			<span class="icon"><i class="far fa-envelope"></i></span>
     			<span class="text">impression.taiwan@gmail.com</span>
     		</a>
