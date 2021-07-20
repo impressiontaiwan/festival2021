@@ -1990,4 +1990,121 @@ html body {
     #page_sponsors .support {
       padding-bottom: 60px; } }
 
+#page_press .container {
+  width: 90%;
+  margin: auto;
+  max-width: 800px;
+  padding: 30px 0 60px 0; }
+  #page_press .container .title {
+    font-size: 32px;
+    font-weight: 900;
+    text-align: center;
+    text-transform: uppercase; }
+    @media screen and (min-width: 768px) {
+      #page_press .container .title {
+        font-size: 38px;
+        border-width: 25px; } }
+  @media screen and (min-width: 768px) and (min-width: 1200px) {
+    #page_press .container .title {
+      font-size: 42px; } }
+
+  @media screen and (min-width: 768px) and (min-width: 1200px) and (min-width: 1400px) {
+    #page_press .container .title {
+      font-size: 48px;
+      margin-bottom: 40px; } }
+
+  #page_press .container .folder-wrap {
+    margin-top: 20px; }
+    #page_press .container .folder-wrap .folder {
+      display: block;
+      margin: auto;
+      width: 195px;
+      height: 195px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center; }
+      #page_press .container .folder-wrap .folder span {
+        display: block; }
+      #page_press .container .folder-wrap .folder .icon {
+        color: #e5c926;
+        font-size: 49px; }
+        #page_press .container .folder-wrap .folder .icon--open {
+          display: none; }
+      #page_press .container .folder-wrap .folder .text {
+        color: white;
+        font-weight: 700;
+        text-decoration: none;
+        font-size: 32px;
+        margin-top: 12px; }
+      #page_press .container .folder-wrap .folder:hover {
+        background-color: white; }
+        #page_press .container .folder-wrap .folder:hover .text {
+          color: #122d7c; }
+        #page_press .container .folder-wrap .folder:hover .icon--close {
+          display: none; }
+        #page_press .container .folder-wrap .folder:hover .icon--open {
+          display: block; }
+    @media screen and (min-width: 768px) {
+      #page_press .container .folder-wrap {
+        display: flex;
+        justify-content: space-between; } }
+  @media screen and (min-width: 768px) and (min-width: 1200px) {
+    #page_press .container .folder-wrap {
+      margin-top: 60px; } }
+
+  #page_press .container .contact-text {
+    font-size: 22px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 40px; }
+    @media screen and (min-width: 768px) {
+      #page_press .container .contact-text {
+        font-size: 28px;
+        margin-top: 70px; } }
+  #page_press .container .contact-btn-wrap {
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px; }
+    #page_press .container .contact-btn-wrap a.contact-btn {
+      color: #122d7c;
+      background-color: white;
+      border: 8px solid #e5c926;
+      padding: 10px 15px 10px 50px; }
+      #page_press .container .contact-btn-wrap a.contact-btn .icon {
+        font-size: 32px; }
+        #page_press .container .contact-btn-wrap a.contact-btn .icon i {
+          position: relative; }
+          #page_press .container .contact-btn-wrap a.contact-btn .icon i:before {
+            top: -21px;
+            right: 0;
+            position: absolute; }
+            @media screen and (min-width: 768px) {
+              #page_press .container .contact-btn-wrap a.contact-btn .icon i:before {
+                top: -26px; } }
+        @media screen and (min-width: 768px) {
+          #page_press .container .contact-btn-wrap a.contact-btn .icon {
+            font-size: 42px; } }
+      #page_press .container .contact-btn-wrap a.contact-btn .text {
+        font-size: 14px;
+        font-weight: 700; }
+        @media screen and (min-width: 768px) {
+          #page_press .container .contact-btn-wrap a.contact-btn .text {
+            font-size: 18px; } }
+      #page_press .container .contact-btn-wrap a.contact-btn:hover .icon i {
+        animation: tada 1s infinite; }
+      @media screen and (min-width: 768px) {
+        #page_press .container .contact-btn-wrap a.contact-btn {
+          padding: 20px 25px 18px 65px; } }
+    @media screen and (min-width: 768px) {
+      #page_press .container .contact-btn-wrap {
+        margin-top: 30px; } }
+  @media screen and (min-width: 768px) and (min-width: 1200px) {
+    #page_press .container .contact-btn-wrap {
+      margin-top: 50px; } }
+
+  @media screen and (min-width: 768px) {
+    #page_press .container {
+      padding: 60px 0 235px 0; } }
+
 /*# sourceMappingURL=style.css.map */
