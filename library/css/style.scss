@@ -2315,4 +2315,109 @@ html{
 			justify-content: space-between;
 		}
 	}//content-wrap
+}//#page_about
+
+#page_sponsors{
+	.sponsor{
+		padding: 30px 0;
+		.frame{
+			background-color: white;
+			padding: 20px 10px;
+			.title{
+				color: $blue;
+				font-size: 28px;
+				text-transform: uppercase;
+				font-weight: 900;
+				border-left: 15px solid $blue;
+				padding-left: 15px;
+				@media screen and (min-width: 768px){
+					font-size: 38px;
+					border-width: 25px;
+				}
+			}//title
+			.logo-wrap{
+				margin-top: 20px;
+				display: flex;
+				flex-wrap: wrap;
+				align-items: center;
+				margin-bottom: 40px;
+				.logo{
+					display: block;
+					padding: 10px;
+					.logo-twfilm-doc{
+						width: 250px;
+						@media screen and (min-width: 768px){
+							width: 420px;
+						}
+					}
+					@media screen and (min-width: 768px){
+						padding: 20px;
+						@media screen and (min-width: 1200px){
+							padding: 40px;
+						}
+					}
+				}//logo
+				@media screen and (min-width: 768px) {
+					margin-bottom: 80px;
+				}
+			}//logo-wrap
+			@media screen and (min-width: 768px){
+				padding: 50px 30px;
+			}
+		}//frame
+		@media screen and (min-width: 992px){
+			padding: 60px 0;
+		}
+	}//sponsor
+	.support{
+		padding-bottom: 30px;
+		.frame{
+			background-color: white;
+			border: 10px solid $yellow;
+			padding: 30px 15px;
+			h2.title{
+				color: $blue;
+				text-transform: uppercase;
+				font-size: 28px;
+				font-weight: 900;
+				text-align: center;
+				margin-bottom: 30px;
+				@media screen and (min-width: 768px){
+					font-size: 38px;
+					border-width: 25px;
+					@media screen and (min-width: 1200px){
+						font-size: 42px;
+						@media screen and (min-width: 1400px){
+							font-size: 48px;
+							margin-bottom: 40px;
+						}
+					}
+				}
+			}//title
+			p{
+				color: $blue;
+				text-align: center;
+				margin-bottom: 20px;
+				a{
+					text-decoration: underline;
+					color: $blue;
+					&:hover{
+						text-decoration: none;
+					}
+				}
+			}
+			@media screen and (min-width: 992px){
+				border-width: 15px;
+				@media screen and (min-width: 1200px){
+					padding: 50px 20px;
+					@media screen and (min-width: 1400px){
+						padding: 50px 30px;
+					}
+				}
+			}
+		}//frame
+		@media screen and (min-width: 992px) {
+			padding-bottom: 60px;
+		}
+	}//support
 }
