@@ -71,7 +71,7 @@ $(document).ready(function(){
 		$('#page_programme .popup .popup-content').addClass('animated');
 		var contentID = $(this).attr('data-target');
 		var target = '../library/inc/popup_content.inc ' + contentID;
-		console.log(target);
+		//console.log(target);
 		$('.popup .popup-content').load(target);
 	});
 	$('#page_programme .popup .close-btn').click(function(){
@@ -104,7 +104,6 @@ $(document).ready(function(){
 	});
 
 	//about
-
 	$('#page_about .submenu .menu-item').click(function(){
 		$(this).addClass('active');
 		$(this).siblings().removeClass('active');

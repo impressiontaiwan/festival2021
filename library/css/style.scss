@@ -435,8 +435,51 @@ html{
 			ul.slick-slider{
 				li.slick-slide{
 					height: auto;
+					position: relative;
 					img{
 						width: 100%;
+					}
+				}
+				li.banner-film{
+					a{
+						display: block;
+						position: absolute;
+						width: 50%;
+						height: 100%;
+						top: 0;
+						transition: all 0.3s ease;
+						.button{
+							background-color: rgba(229,201,38,0.9);
+							color: white;
+							font-weight: 700;
+							display: block;
+							width: 30%;
+					    font-size: 2vw;
+					    padding: 0.5vw;
+					    text-align: center;
+					    border-radius: 2vw;
+					    position: absolute;
+					    bottom: 7%;
+					    transition: all 0.3s ease;
+						}
+						&.opening{
+							left: 0;
+							.button{
+								right: 4%;
+							}
+						}
+						&.closing{
+							right: 0;
+							.button{
+								left: 4%;
+							}
+						}
+						&:hover{
+							background-color: rgba(0,0,0,0.3);
+							.button{
+								transform: scale(1.05);
+							}
+						}
 					}
 				}
 				ul.slick-dots{
@@ -895,6 +938,7 @@ html{
 						margin-top: 5px;
 						.tag{
 							color: $yellow;
+							cursor: default;
 						}
 					}
 					.intro{
@@ -1109,6 +1153,7 @@ html{
 					margin-top: 5px;
 					.tag{
 						color: $yellow;
+						cursor: default;
 					}
 				}
 				.button-wrap{
@@ -2514,14 +2559,15 @@ html{
 				color: $blue;
 				background-color: white;
 				border: 8px solid $yellow;
-				padding: 10px 15px 10px 50px;
+				padding: 10px 15px 10px 40px;
 				.icon{
 					font-size: 32px;
 					i{
 						position: relative;
+						margin-right: 15px;
 						&:before{
 							top: -21px;
-							right: 0;
+							right: -11px;
 							position: absolute;
 							@media screen and (min-width: 768px){
 								top: -26px;
