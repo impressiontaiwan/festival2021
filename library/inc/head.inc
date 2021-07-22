@@ -4,16 +4,16 @@
 <meta name="description" content="Every Summer we will present selected Taiwanese films that features different aspects and stories of Taiwan. Come join us to explore the unique Taiwanese culture and get inspired through the power of arts and films!">
 <meta name="author" content="Imrepssion Taiwan x Samantha Lin">
 <meta property="og:site_name" content="Impression Taiwan"/>
-<meta property="og:title" content="Impression Taiwan 2020"/>
+<meta property="og:title" content="Impression Taiwan 2021"/>
 <meta property="og:description" content="Every Summer we will present selected Taiwanese films that features different aspects and stories of Taiwan. Come join us to explore the unique Taiwanese culture and get inspired through the power of arts and films!"/>
 <meta property="og:type" content="website"/>
-<meta property="og:image" content="http://festival2020.impressiontaiwan.org/image/banner_1200x628.png"/>
-<meta property="og:url" content="http://festival2020.impressiontaiwan.org"/>
+<meta property="og:image" content="../library/assets/banner_1200x628.png"/>
+<meta property="og:url" content="http://festival2021.impressiontaiwan.org"/>
 <meta name="twitter:card" content="summary_large_image" />
-<meta name="twitter:title" content="Impression Taiwan 2020"/>
+<meta name="twitter:title" content="Impression Taiwan 2021"/>
 <meta name="twitter:description" content="Every Summer we will present selected Taiwanese films that features different aspects and stories of Taiwan. Come join us to explore the unique Taiwanese culture and get inspired through the power of arts and films!"/>
-<meta name="twitter:image" content="http://festival2020.impressiontaiwan.org/image/banner_1200x628.png" />
-<meta name="twitter:url" content="http://festival2020.impressiontaiwan.org" />
+<meta name="twitter:image" content="../library/assets/banner_1200x628.png" />
+<meta name="twitter:url" content="http://festival2021.impressiontaiwan.org" />
 
 <title>Impression Taiwan 2021</title>
 

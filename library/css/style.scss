@@ -3,8 +3,8 @@
 *{
 	box-sizing: border-box;
 }
-//animations
 
+//animations
 @keyframes rubberBand {
   0% {
     -webkit-transform: scale3d(1, 1, 1);
@@ -75,6 +75,60 @@
   }
 }
 
+@keyframes loading-box {
+    0% {
+        transform: rotate(0deg);
+    }
+    25% {
+        transform: rotate(0deg);
+    }
+    50% {
+        transform: rotate(180deg);
+    }
+    75% {
+        transform: rotate(180deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes loading-white {
+    0% {
+        height: 1%;
+    }
+    25% {
+        height: 100%;
+    }
+    50% {
+        height: 100%;
+    }
+    75% {
+        height: 100%;
+    }
+    100% {
+        height: 100%;
+    }
+}
+
+@keyframes loading-blue {
+    0% {
+        height: 1%;
+    }
+    25% {
+        height: 1%;
+    }
+    50% {
+        height: 1%;
+    }
+    75% {
+        height: 100%;
+    }
+    100% {
+        height: 100%;
+    }
+}
+
 //variables
 $blue: #122d7c;
 $yellow: #e5c926;
@@ -92,6 +146,55 @@ html{
 			height: 100%;
 			overflow: hidden;
 		}
+		.loading-page{
+			position: fixed;
+      width:100%;
+      height:100vh;
+      top:0;
+      left:0;
+      background-color: #122d7c;
+      z-index:1235;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      .box{
+      	width: 100px;
+        height: 100px;
+        position: relative;
+        animation: loading-box 6s infinite;
+        .background-white{
+          width: 100%;
+          background-color: white;
+          position: absolute;
+          left: 0;
+          bottom: 0;
+          animation: loading-white 6s infinite;
+        }
+        .background-blue{
+        	width: 100%;
+          background-color: #122d7c;
+          position: absolute;
+          left: 0;
+          bottom: 0;
+          animation: loading-blue 6s infinite;
+        }
+        .border{
+          width: 100%;
+          height: 100%;
+          position: absolute;
+          border:  10px solid #e5c926;
+          left: 0;
+          top: 0;
+        }
+      }//box
+      .loading-impression{
+        position: absolute;
+        left: 50%;
+        height: 50%;
+        width: 50px;
+        transform: translateX(-50%);
+      }
+		}//loading-page
 		header{
 			position: relative;
 			position: fixed;
