@@ -6,12 +6,14 @@
             <h3 class="zh">男人與他的海</h3>
         </div>
         <div class="info">
-            Midi Z | 2014 | 95 Min. | Original with English subtitles
+            HUANG Chia-chun | 2020 | 108 Min. | Original with English subtitles
         </div>
         <div class="tag-wrap">
-            <a href="" class="tag">#Drug</a>
-            <a href="" class="tag">#Addict</a>
-            <a href="" class="tag">#Survive</a>
+            <a href="" class="tag">#Germanpremiere</a>
+            <a href="" class="tag">#Ocean</a>
+            <a href="" class="tag">#UnderwaterPhotography</a>
+            <a href="" class="tag">#Nature</a>
+            <a href="" class="tag">#Documentary</a>
         </div>
         <div class="intro">
             <p>Taiwan is an island country. Although it is surrounded by the sea, its people fear the sea since the politics, the history and the religious beliefs held on this island make people turn their backs to the sea.</p>
@@ -77,7 +79,7 @@
             <h3 class="zh">阿紫</h3>
         </div>
         <div class="info">
-            WU Yu-ying | 2019 | 83 Min.| Original with English subtitles
+            WU Yu-ying | 2019 | 83 Min. | Original with English subtitles
         </div>
         <div class="tag-wrap">
             <a href="" class="tag">#Germanpremiere</a>
@@ -111,7 +113,7 @@
             <h3 class="zh">超級大國民</h3>
         </div>
         <div class="info">
-            WAN Jen ∣ 1994 ∣120 Min. ∣ Original with English subtitle
+            WAN Jen ∣ 1994 ∣ 120 Min. ∣ Original with English subtitle
         </div>
         <div class="tag-wrap">
             <a href="" class="tag">#Fiction</a>
@@ -190,11 +192,11 @@
             <h3 class="zh">行者</h3>
         </div>
         <div class="info">
-            CHEN Singing | 147 Min. | Original with English subtitles
+            CHEN Singing | 2014 | 147 Min. | Original with English subtitles
         </div>
         <div class="tag-wrap">
             <a href="" class="tag">#Dance</a>
-            <a href="" class="tag">#Porait</a>
+            <a href="" class="tag">#Portrait</a>
             <a href="" class="tag">#Music</a>
             <a href="" class="tag">#Choreography</a>
             <a href="" class="tag">#Documentary</a>
@@ -267,7 +269,7 @@
             <h3 class="zh">獨舞者的樂章</h3>
         </div>
         <div class="info">
-            LEE Li-shao | 2021| 83 Min. | Original with English subtitles
+            LEE Li-shao | 2021 | 83 Min. | Original with English subtitles
         </div>
         <div class="tag-wrap">
             <a href="" class="tag">#Worldpremiere</a>
@@ -377,7 +379,7 @@
             LI Hsing | 1959 ∣ 148 Min. ∣ Original with English subtitles
         </div>
         <div class="tag-wrap">
-            <a href="" class="tag">#Comedie</a>
+            <a href="" class="tag">#Comedy</a>
             <a href="" class="tag">#Nostalgia</a>
             <a href="" class="tag">#Classic</a>
             <a href="" class="tag">#NarrativeFeature</a>
@@ -450,7 +452,7 @@
             <a href="" class="tag">#ShortFilm</a>
         </div>
         <div class="intro">
-            <p>Nia travels far from her home, Philippine, to Taiwan to work as a family maid. Nia likes to keep herself in her private room, where a door separates between her and her employers. This brings displeasure to her female employer and conflicts arise between them. This is a story about a day of Nia’s life, which could also resonate for all who are far away from home.</p>
+            <p>Ah Fei, a Vietnamese who left home to work in Taiwan, escapes from his Taiwanese employer in hope to earn more money to send back home to his father. One day, he runs into Ah Hai, a police patrol officer, at the beach. Ah Hai sees Ah Fei in possession of syringes and uses the baton on him without giving him a chance to explain. By the beach, nine shots were eventually fired at Ah Fei. It’s the first time Ah Fei’s father is travelling out of Vietnam, only to be bringing home his son’s lifeless body.</p>
         </div>
     </div>
     <div class="content director">

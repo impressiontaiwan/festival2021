@@ -152,7 +152,7 @@ html{
       height:100vh;
       top:0;
       left:0;
-      background-color: #122d7c;
+      background-color: $blue;
       z-index:1235;
       display: flex;
       align-items: center;
@@ -172,7 +172,7 @@ html{
         }
         .background-blue{
         	width: 100%;
-          background-color: #122d7c;
+          background-color: $blue;
           position: absolute;
           left: 0;
           bottom: 0;
@@ -182,7 +182,7 @@ html{
           width: 100%;
           height: 100%;
           position: absolute;
-          border:  10px solid #e5c926;
+          border:  10px solid $yellow;
           left: 0;
           top: 0;
         }
@@ -1755,7 +1755,8 @@ html{
 			p.keep-in-mind{
 				font-weight: 900;
 				margin: 20px 0 10px 0;
-				font-size: 16px;
+				font-size: 18px;
+				color: $yellow;
 			}
 			@media screen and (min-width: 768px){
 				margin-top: 50px;

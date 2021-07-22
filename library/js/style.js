@@ -77,14 +77,20 @@ $(document).ready(function(){
 		var selectSection = $(this).attr('href');
 		$('html,body').animate({scrollTop: $(selectSection).offset().top},'slow');
 	});
+	$('#page_programme .movie .tag').click(function(){
+		return false;
+	});
 	$('#page_programme .movie button').click(function(){
 		$('body').addClass('popup-show');
 		$('#page_programme .popup').css('display','flex');
 		$('#page_programme .popup .popup-content').addClass('animated');
 		var contentID = $(this).attr('data-target');
 		var target = '../library/inc/popup_content.inc ' + contentID;
-		//console.log(target);
-		$('.popup .popup-content').load(target);
+		$('.popup .popup-content').load(target, function(){
+			$('#page_programme .movie .tag').click(function(){
+				return false;
+			});
+		});
 	});
 	$('#page_programme .popup .close-btn').click(function(){
 		$('body').removeClass('popup-show');

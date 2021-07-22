@@ -1457,7 +1457,8 @@ html body {
   #page_tickets .frame .notice p.keep-in-mind {
     font-weight: 900;
     margin: 20px 0 10px 0;
-    font-size: 16px; }
+    font-size: 18px;
+    color: #e5c926; }
   @media screen and (min-width: 768px) {
     #page_tickets .frame .notice {
       margin-top: 50px; } }
