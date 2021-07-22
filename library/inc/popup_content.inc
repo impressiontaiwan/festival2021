@@ -31,7 +31,7 @@
             <p>Born in Taipei, Taiwan. HUANG has been working as a TV and film director for over 10 years. He focuses on the relation between people and society and shows warmth through his works.</p>
         </div>
         <div class="button-wrap">
-            <a href="" class="interview-btn">
+            <a href="#" class="interview-btn">
                 <i class="fas fa-play-circle"></i> Watch the Interview
             </a>
         </div>
@@ -137,7 +137,7 @@
             <p>One of the most influential directors in Taiwan’s New Wave Cinema of the 1980s, he made his debut, The Taste of Apple, in the landmark work The Sandwich Man (1983) with HOU Hsiao-hsien and ZENG Chuang-hsiang. WAN has consistently explored Taiwan’s social problems and political issues. His work has always been politically sensitive and critical of the impacts of industrialization and political corruption, and has been powerful in challenging how the past is presented and whose story is told.</p>
         </div>
         <div class="button-wrap">
-            <a href="" class="interview-btn">
+            <a href="#" class="interview-btn">
                 <i class="fas fa-play-circle"></i> Watch the Interview
             </a>
         </div>
@@ -177,7 +177,7 @@
             <p>WANG holds an MA in Screenwriting at Exeter University. She was an important production team member of the literary documentary series, The Inspired Island. Her first feature-length documentary, River Without Banks (2012), depicts a full picture of the prominent Taiwanese poet LO Fu. In 2017, her second work, A Foley Artist, was theatrically released in Taiwan and Hong Kong.</p>
         </div>
         <div class="button-wrap">
-            <a href="" class="interview-btn">
+            <a href="#" class="interview-btn">
                 <i class="fas fa-play-circle"></i> Watch the Interview
             </a>
         </div>
@@ -216,7 +216,7 @@
             <p>One of most talented and promising young directors in Taiwan, CHEN is well known for her unique styles and fast paces with focuses on issues in art and culture. In 2007, God, Man, Dog, was selected in The Forum at the Berlin International Film Festival and was voted Best Film by the Der Tagesspiegel, the biggest newspaper in Germany. Furthermore, it was invited to more than 30 film festivals, including Busan International Film Festival and Fribourg Film Festival. In 2000, her first 16mm feature, Bundled, was critically acclaimed and won numerous awards at both domestic and international film festivals.</p>
         </div>
         <div class="button-wrap">
-            <a href="" class="interview-btn">
+            <a href="#" class="interview-btn">
                 <i class="fas fa-play-circle"></i> Watch the Interview
             </a>
         </div>
@@ -254,7 +254,7 @@
             <p>WANG Wan-jo holds an MA in Screenwriting at Exeter University. She was an important production team member of the literary documentary series, The Inspired Island. Her first feature-length documentary, River Without Banks (2012), depicts a full picture of the prominent Taiwanese poet LO Fu. In 2017, her second work, A Foley Artist, was theatrically released in Taiwan and Hong Kong.</p>
         </div>
         <div class="button-wrap">
-            <a href="" class="interview-btn">
+            <a href="#" class="interview-btn">
                 <i class="fas fa-play-circle"></i> Watch the Interview
             </a>
         </div>
@@ -361,7 +361,7 @@
             <p>One of most talented and promising young directors in Taiwan, CHEN is well known for her unique styles and fast paces with focuses on issues in art and culture. In 2007, God, Man, Dog, was selected in The Forum at the Berlin International Film Festival and was voted Best Film by Der Tagesspiegel, the biggest newspaper in Germany. Furthermore, it was invited to more than 30 film festivals, including Busan International Film Festival and Fribourg Film Festival. In 2000, her first 16mm feature, Bundled, was critically acclaimed and won numerous awards at both domestic and international film festivals.</p>
         </div>
         <div class="button-wrap">
-            <a href="" class="interview-btn">
+            <a href="#" class="interview-btn">
                 <i class="fas fa-play-circle"></i> Watch the Interview
             </a>
         </div>
