@@ -1909,6 +1909,10 @@ html body {
           color: #989898;
           text-decoration: underline;
           font-size: 12px; }
+      #page_about .content-wrap .panel .panel-content .team-members .member--Joyce .photo img {
+        object-position: 50% 64%; }
+      #page_about .content-wrap .panel .panel-content .team-members .member--Celina .photo img {
+        object-position: 50% 20%; }
       @media screen and (min-width: 568px) {
         #page_about .content-wrap .panel .panel-content .team-members .member {
           width: calc(50% - 5px); } }

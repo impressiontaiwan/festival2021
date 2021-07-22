@@ -1,4 +1,9 @@
 $(document).ready(function(){
+	
+	// Disable caching of AJAX responses
+	$.ajaxSetup ({
+	    cache: false,
+	});
 
 	//header
 	$('header').load('../library/inc/header.inc', function(){
