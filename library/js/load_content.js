@@ -3,4 +3,4 @@ $(document).ready(function(){
 	$('header').load('../library/inc/header.inc');
 	$('footer').load('../library/inc/footer.inc');
 	$('head').load('../library/inc/head.inc');
-})
+});
