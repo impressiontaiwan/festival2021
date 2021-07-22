@@ -1136,7 +1136,8 @@ html body {
       position: relative;
       max-height: 55px; }
       #page_schedule .body-wrap .frame .calender ul li.row .period {
-        position: relative; }
+        position: relative;
+        height: 100%; }
         #page_schedule .body-wrap .frame .calender ul li.row .period .block {
           width: 5vw;
           height: 100%;
