@@ -9,11 +9,11 @@
             HUANG Chia-chun | 2020 | 108 Min. | Original with English subtitles
         </div>
         <div class="tag-wrap">
-            <a href="" class="tag">#Germanpremiere</a>
-            <a href="" class="tag">#Ocean</a>
-            <a href="" class="tag">#UnderwaterPhotography</a>
-            <a href="" class="tag">#Nature</a>
-            <a href="" class="tag">#Documentary</a>
+            <a href="#" class="tag">#Germanpremiere</a>
+            <a href="#" class="tag">#Ocean</a>
+            <a href="#" class="tag">#UnderwaterPhotography</a>
+            <a href="#" class="tag">#Nature</a>
+            <a href="#" class="tag">#Documentary</a>
         </div>
         <div class="intro">
             <p>Taiwan is an island country. Although it is surrounded by the sea, its people fear the sea since the politics, the history and the religious beliefs held on this island make people turn their backs to the sea.</p>
@@ -31,7 +31,7 @@
             <p>Born in Taipei, Taiwan. HUANG has been working as a TV and film director for over 10 years. He focuses on the relation between people and society and shows warmth through his works.</p>
         </div>
         <div class="button-wrap">
-            <a href="#" class="interview-btn">
+            <a href="#" class="interview-btn" onclick="return false;">
                 <i class="fas fa-play-circle"></i> Watch the Interview
             </a>
         </div>
@@ -49,11 +49,11 @@
             LEE Chia-hua | 2019 | 74 Min. | Original with English subtitles
         </div>
         <div class="tag-wrap">
-            <a href="" class="tag">#Germanpremiere</a>
-            <a href="" class="tag">#HumanRights</a>
-            <a href="" class="tag">#DeathPenalty</a>
-            <a href="" class="tag">#SocialIssues</a>
-            <a href="" class="tag">#Documentary</a>
+            <a href="#" class="tag">#Germanpremiere</a>
+            <a href="#" class="tag">#HumanRights</a>
+            <a href="#" class="tag">#DeathPenalty</a>
+            <a href="#" class="tag">#SocialIssues</a>
+            <a href="#" class="tag">#Documentary</a>
         </div>
         <div class="intro">
             <p>The film centres around three condemned prisoners, one still serving his sentence, one who has taken his own life in prison and one already executed. Consisting of unembellished interviews and news footage, the film shows the director's concern for the condemned prisoners and their families, examines the contemporary history of capital punishment in Taiwan, and furthermore questions the current judicial system.</p>
@@ -82,12 +82,12 @@
             WU Yu-ying | 2019 | 83 Min. | Original with English subtitles
         </div>
         <div class="tag-wrap">
-            <a href="" class="tag">#Germanpremiere</a>
-            <a href="" class="tag">#Gender</a>
-            <a href="" class="tag">#Family</a>
-            <a href="" class="tag">#Family</a>
-            <a href="" class="tag">#Migration</a>
-            <a href="" class="tag">#Documentary</a>
+            <a href="#" class="tag">#Germanpremiere</a>
+            <a href="#" class="tag">#Gender</a>
+            <a href="#" class="tag">#Family</a>
+            <a href="#" class="tag">#Family</a>
+            <a href="#" class="tag">#Migration</a>
+            <a href="#" class="tag">#Documentary</a>
         </div>
         <div class="intro">
             <p>A portrait of the complicated marriage between Long, a disabled Taiwanese man, and Azhe, his Vietnamese bride. Their union results from Long’s wish to obey his overbearing mother and Azhe’s self-sacrificing effort to help her impoverished family. The Good Daughter is an unflinching look at one woman’s epic struggle to balance her family obligation to support her relatives in Vietnam with her duties as a mother and wife to her family in Taiwan.</p>
@@ -116,11 +116,11 @@
             WAN Jen ∣ 1994 ∣ 120 Min. ∣ Original with English subtitle
         </div>
         <div class="tag-wrap">
-            <a href="" class="tag">#Fiction</a>
-            <a href="" class="tag">#WitheTerror</a>
-            <a href="" class="tag">#HumanRights</a>
-            <a href="" class="tag">#1950s</a>
-            <a href="" class="tag">#DeathPenalty</a>
+            <a href="#" class="tag">#Fiction</a>
+            <a href="#" class="tag">#WitheTerror</a>
+            <a href="#" class="tag">#HumanRights</a>
+            <a href="#" class="tag">#1950s</a>
+            <a href="#" class="tag">#DeathPenalty</a>
         </div>
         <div class="intro">
             <p>The film narrates the political history of Taiwan over a period of 50 years, following the imposition of martial law in 1947 and ‘The White Terror.’ Suspected of being a leftist, KO spent around 30 years in prison and institutions, always obsessively worrying about the fate of his best friend CHEN executed in the 1950s. Their friendship and CHEN's fate is chronicled in flashback. Soon after his release, KO goes in search of the truth and a part of himself. Only when he learns the truth is he able to pay his respects.</p>
@@ -137,7 +137,7 @@
             <p>One of the most influential directors in Taiwan’s New Wave Cinema of the 1980s, he made his debut, The Taste of Apple, in the landmark work The Sandwich Man (1983) with HOU Hsiao-hsien and ZENG Chuang-hsiang. WAN has consistently explored Taiwan’s social problems and political issues. His work has always been politically sensitive and critical of the impacts of industrialization and political corruption, and has been powerful in challenging how the past is presented and whose story is told.</p>
         </div>
         <div class="button-wrap">
-            <a href="#" class="interview-btn">
+            <a href="#" class="interview-btn" onclick="return false;">
                 <i class="fas fa-play-circle"></i> Watch the Interview
             </a>
         </div>
@@ -155,12 +155,12 @@
             WANG Wan-jo | 2020 | 135 Min. | Original with English subtitles
         </div>
         <div class="tag-wrap">
-            <a href="" class="tag">#Germanpremiere</a>
-            <a href="" class="tag">#Comic</a>
-            <a href="" class="tag">#Manga</a>
-            <a href="" class="tag">#Arts</a>
-            <a href="" class="tag">#Animation</a>
-            <a href="" class="tag">#Documentary</a>
+            <a href="#" class="tag">#Germanpremiere</a>
+            <a href="#" class="tag">#Comic</a>
+            <a href="#" class="tag">#Manga</a>
+            <a href="#" class="tag">#Arts</a>
+            <a href="#" class="tag">#Animation</a>
+            <a href="#" class="tag">#Documentary</a>
         </div>
         <div class="intro">
             <p>Chen Uen is the most celebrated artist in the field of comic art in Asia. His work presented a unique aesthetic style that blends art forms of Chinese ink painting and western painting skills. His agility and skillfulness in using various materials have made him unparalleled, which is regarded as “Chen Uen aesthetic.”</p>
@@ -177,7 +177,7 @@
             <p>WANG holds an MA in Screenwriting at Exeter University. She was an important production team member of the literary documentary series, The Inspired Island. Her first feature-length documentary, River Without Banks (2012), depicts a full picture of the prominent Taiwanese poet LO Fu. In 2017, her second work, A Foley Artist, was theatrically released in Taiwan and Hong Kong.</p>
         </div>
         <div class="button-wrap">
-            <a href="#" class="interview-btn">
+            <a href="#" class="interview-btn" onclick="return false;">
                 <i class="fas fa-play-circle"></i> Watch the Interview
             </a>
         </div>
@@ -195,11 +195,11 @@
             CHEN Singing | 2014 | 147 Min. | Original with English subtitles
         </div>
         <div class="tag-wrap">
-            <a href="" class="tag">#Dance</a>
-            <a href="" class="tag">#Portrait</a>
-            <a href="" class="tag">#Music</a>
-            <a href="" class="tag">#Choreography</a>
-            <a href="" class="tag">#Documentary</a>
+            <a href="#" class="tag">#Dance</a>
+            <a href="#" class="tag">#Portrait</a>
+            <a href="#" class="tag">#Music</a>
+            <a href="#" class="tag">#Choreography</a>
+            <a href="#" class="tag">#Documentary</a>
         </div>
         <div class="intro">
             <p>The deep rumble of drums opens the gate to the underworld and Sea Goddess Mazu gracefully leads the spirits towards it. A scene from the ritualistic dance piece Miroirs de Vie (2006), created by internationally renowned choreographer LIN Lee-Chen and performed by her Legend Lin Dance Theatre. LIN has devoted her life to creating work that blends modern dance with religious ritual. Drawing from her own life, LIN turns her outlook into a calming physical strength in her choreography, giving the audience a chance to glimpse her inner strength and creativity.</p>
@@ -216,7 +216,7 @@
             <p>One of most talented and promising young directors in Taiwan, CHEN is well known for her unique styles and fast paces with focuses on issues in art and culture. In 2007, God, Man, Dog, was selected in The Forum at the Berlin International Film Festival and was voted Best Film by the Der Tagesspiegel, the biggest newspaper in Germany. Furthermore, it was invited to more than 30 film festivals, including Busan International Film Festival and Fribourg Film Festival. In 2000, her first 16mm feature, Bundled, was critically acclaimed and won numerous awards at both domestic and international film festivals.</p>
         </div>
         <div class="button-wrap">
-            <a href="#" class="interview-btn">
+            <a href="#" class="interview-btn" onclick="return false;">
                 <i class="fas fa-play-circle"></i> Watch the Interview
             </a>
         </div>
@@ -234,10 +234,10 @@
             WANG Wan-jo ∣ 2016 ∣ 100 Min. ∣ Original with English subtitles
         </div>
         <div class="tag-wrap">
-            <a href="" class="tag">#Music</a>
-            <a href="" class="tag">#Foley</a>
-            <a href="" class="tag">#SoundEffect</a>
-            <a href="" class="tag">#Documentary</a>
+            <a href="#" class="tag">#Music</a>
+            <a href="#" class="tag">#Foley</a>
+            <a href="#" class="tag">#SoundEffect</a>
+            <a href="#" class="tag">#Documentary</a>
         </div>
         <div class="intro">
             <p>HU Ding-Yi is the most acclaimed Foley artist in Taiwan. Using unconventional methods with immense creativity and talent, HU produces all kinds of sound effects for films, helping the audience lose themselves in the imaginative worlds on the screen. HU has devoted the past 40 years, and his spirit of craftsmanship, to the film industry working on countless Chinese-language films, and witnessing the evolution of Taiwan’s film industry. However, with the explosion of digital sound effects, HU’s career now faces a crisis as he has to adapt himself to the changes.</p>
@@ -254,7 +254,7 @@
             <p>WANG Wan-jo holds an MA in Screenwriting at Exeter University. She was an important production team member of the literary documentary series, The Inspired Island. Her first feature-length documentary, River Without Banks (2012), depicts a full picture of the prominent Taiwanese poet LO Fu. In 2017, her second work, A Foley Artist, was theatrically released in Taiwan and Hong Kong.</p>
         </div>
         <div class="button-wrap">
-            <a href="#" class="interview-btn">
+            <a href="#" class="interview-btn" onclick="return false;">
                 <i class="fas fa-play-circle"></i> Watch the Interview
             </a>
         </div>
@@ -272,12 +272,12 @@
             LEE Li-shao | 2021 | 83 Min. | Original with English subtitles
         </div>
         <div class="tag-wrap">
-            <a href="" class="tag">#Worldpremiere</a>
-            <a href="" class="tag">#Muse</a>
-            <a href="" class="tag">#Art</a>
-            <a href="" class="tag">#Female</a>
-            <a href="" class="tag">#Dance</a>
-            <a href="" class="tag">#Documantary</a>
+            <a href="#" class="tag">#Worldpremiere</a>
+            <a href="#" class="tag">#Muse</a>
+            <a href="#" class="tag">#Art</a>
+            <a href="#" class="tag">#Female</a>
+            <a href="#" class="tag">#Dance</a>
+            <a href="#" class="tag">#Documantary</a>
         </div>
         <div class="intro">
             <p>Dance educator LIN Ssu-tuan is the first professional nude model in Taiwan in the 1950s and the 1960s, the muse for painters and sculptors in the art world, and the face for photographers’ salons around the world; in the end, she reversed the dynamics of the subject vs. the object and went on to perform her first solo modern dance in 1975, turning herself from the state of passiveness to an active educator of the art of dance.</p>
@@ -307,11 +307,11 @@
             FU Tein-yu | 2009 | 94 Min. | Original with English subtitles
         </div>
         <div class="tag-wrap">
-            <a href="" class="tag">#Growth</a>
-            <a href="" class="tag">#Youth</a>
-            <a href="" class="tag">#Explorer</a>
-            <a href="" class="tag">#Generation</a>
-            <a href="" class="tag">#NarrativeFeature</a>
+            <a href="#" class="tag">#Growth</a>
+            <a href="#" class="tag">#Youth</a>
+            <a href="#" class="tag">#Explorer</a>
+            <a href="#" class="tag">#Generation</a>
+            <a href="#" class="tag">#NarrativeFeature</a>
         </div>
         <div class="intro">
             <p>Colorrblind girl A-Kuei feels alienated and misunderstood. She is raised by her grandmother who would rather believe she is possessed than hear her feelings. The only person in the village who understands her is her bookworm cousin A-Hsien. He tells her that there is an island far away in the South Pacific where everyone is also colorblind due to a genetic mutation. As A-Kuei develops a hazy affection for A-Hsien, she begins to discover his secrets. Both teens long to escape from their remote seaside village, travel far away to a place where they can find unbridled happiness and truly be themselves.</p>
@@ -341,10 +341,10 @@
             CHEN Singing | 2007 | 119 Min. | Original with English subtitles
         </div>
         <div class="tag-wrap">
-            <a href="" class="tag">#NarrativeFeature</a>
-            <a href="" class="tag">#BlackHumor</a>
-            <a href="" class="tag">#ClassStruggle</a>
-            <a href="" class="tag">#RoadMovie</a>
+            <a href="#" class="tag">#NarrativeFeature</a>
+            <a href="#" class="tag">#BlackHumor</a>
+            <a href="#" class="tag">#ClassStruggle</a>
+            <a href="#" class="tag">#RoadMovie</a>
         </div>
         <div class="intro">
             <p>A car accident involving a stray dog connects unlikely characters with life-changing results. A hand model caught in an estranged middle-class marriage, tries to recover from the loss of her baby, but neither religion nor extramarital affairs can help her. A poor aboriginal couple resort to God to get rid of their alcohol problems, transport top-class peaches to the city and hope to reunite with their daughters. A one-legged truck driver collects abandoned deity statues hoping to be blessed with a new prosthetic. Some of them will face a surprising turn in life, others will be caught in new dilemmas.</p>
@@ -361,7 +361,7 @@
             <p>One of most talented and promising young directors in Taiwan, CHEN is well known for her unique styles and fast paces with focuses on issues in art and culture. In 2007, God, Man, Dog, was selected in The Forum at the Berlin International Film Festival and was voted Best Film by Der Tagesspiegel, the biggest newspaper in Germany. Furthermore, it was invited to more than 30 film festivals, including Busan International Film Festival and Fribourg Film Festival. In 2000, her first 16mm feature, Bundled, was critically acclaimed and won numerous awards at both domestic and international film festivals.</p>
         </div>
         <div class="button-wrap">
-            <a href="#" class="interview-btn">
+            <a href="#" class="interview-btn" onclick="return false;">
                 <i class="fas fa-play-circle"></i> Watch the Interview
             </a>
         </div>
@@ -379,11 +379,11 @@
             LI Hsing | 1959 ∣ 148 Min. ∣ Original with English subtitles
         </div>
         <div class="tag-wrap">
-            <a href="" class="tag">#Comedy</a>
-            <a href="" class="tag">#Nostalgia</a>
-            <a href="" class="tag">#Classic</a>
-            <a href="" class="tag">#NarrativeFeature</a>
-            <a href="" class="tag">#B&W</a>
+            <a href="#" class="tag">#Comedy</a>
+            <a href="#" class="tag">#Nostalgia</a>
+            <a href="#" class="tag">#Classic</a>
+            <a href="#" class="tag">#NarrativeFeature</a>
+            <a href="#" class="tag">#B&W</a>
         </div>
         <div class="intro">
             <p>Fat Wang and skinny Liu are best friends. One day, a fortune teller foresees that Wang will win a fortune in three days, but Liu will die in 44 days. When Wang wins the lottery as predicted, Liu is troubled by the forecast that he will die soon. To cheer his best friend up, Wang decides to use the prize money to take Liu on a trip around Taiwan, beginning a series of unexpected adventures.</p>
@@ -413,10 +413,10 @@
             LAU Kek-huat | 2015 | 26 Min. | Original with English subtitles
         </div>
         <div class="tag-wrap">
-            <a href="" class="tag">#MigrantWorker</a>
-            <a href="" class="tag">#Philippine</a>
-            <a href="" class="tag">#NewDirector</a>
-            <a href="" class="tag">#ShortFilm</a>
+            <a href="#" class="tag">#MigrantWorker</a>
+            <a href="#" class="tag">#Philippine</a>
+            <a href="#" class="tag">#NewDirector</a>
+            <a href="#" class="tag">#ShortFilm</a>
         </div>
         <div class="intro">
             <p>Nia travels far from her home, Philippine, to Taiwan to work as a family maid. Nia likes to keep herself in her private room, where a door separates between her and her employers. This brings displeasure to her female employer and conflicts arise between them. This is a story about a day of Nia’s life, which could also resonate for all who are far away from home.</p>
@@ -445,11 +445,11 @@
             SU Cheh-shien | 2018 | 15 Min. | Original with English subtitles
         </div>
         <div class="tag-wrap">
-            <a href="" class="tag">#MigrantWorker</a>
-            <a href="" class="tag">#HumanRights</a>
-            <a href="" class="tag">#Vietname</a>
-            <a href="" class="tag">#NewDirector</a>
-            <a href="" class="tag">#ShortFilm</a>
+            <a href="#" class="tag">#MigrantWorker</a>
+            <a href="#" class="tag">#HumanRights</a>
+            <a href="#" class="tag">#Vietname</a>
+            <a href="#" class="tag">#NewDirector</a>
+            <a href="#" class="tag">#ShortFilm</a>
         </div>
         <div class="intro">
             <p>Ah Fei, a Vietnamese who left home to work in Taiwan, escapes from his Taiwanese employer in hope to earn more money to send back home to his father. One day, he runs into Ah Hai, a police patrol officer, at the beach. Ah Hai sees Ah Fei in possession of syringes and uses the baton on him without giving him a chance to explain. By the beach, nine shots were eventually fired at Ah Fei. It’s the first time Ah Fei’s father is travelling out of Vietnam, only to be bringing home his son’s lifeless body.</p>
@@ -478,11 +478,11 @@
             Rina B. TSOU | 2016 | 24 Min. | Original with English subtitles
         </div>
         <div class="tag-wrap">
-            <a href="" class="tag">#MigrantWorker</a>
-            <a href="" class="tag">#HumanRights</a>
-            <a href="" class="tag">#Vietname</a>
-            <a href="" class="tag">#NewDirector</a>
-            <a href="" class="tag">#ShortFilm</a>
+            <a href="#" class="tag">#MigrantWorker</a>
+            <a href="#" class="tag">#HumanRights</a>
+            <a href="#" class="tag">#Vietname</a>
+            <a href="#" class="tag">#NewDirector</a>
+            <a href="#" class="tag">#ShortFilm</a>
         </div>
         <div class="intro">
             <p>While docked at the port of Kaohsiung, Filipino seaman ARNIE buys a ring with the help of his mates. He plans to propose to his girlfriend back home over the internet. What was meant to be the happiest moment of his life soon takes a downward spiral when he finds out that she is pregnant. Arnie is not the father of the child. Like a fish out of water, the life of migrant seamen working in Taiwan is a daily struggle… for the catch is plenty down south, but the waves are choppy and brutal. Monsoon season is here.</p>
@@ -511,11 +511,11 @@
             LIAO Shih-han | 2020 | 57 Min. | Original with English subtitles
         </div>
         <div class="tag-wrap">
-            <a href="" class="tag">#WorldPremiere</a>
-            <a href="" class="tag">#indigenous</a>
-            <a href="" class="tag">#Nature</a>
-            <a href="" class="tag">#Culture</a>
-            <a href="" class="tag">#Documentary</a>
+            <a href="#" class="tag">#WorldPremiere</a>
+            <a href="#" class="tag">#indigenous</a>
+            <a href="#" class="tag">#Nature</a>
+            <a href="#" class="tag">#Culture</a>
+            <a href="#" class="tag">#Documentary</a>
         </div>
         <div class="intro">
             <p>“Taromak” is located in Taitung, Taiwan, meaning “land of warriors” in Rukai language. Due to the change of generations, the new chieftain Gu is now faced with a severe crisis to pass on the traditional culture and to strengthen solidarity between peoples. In order to seek the story of Taromak, the filmmaker visited the local indigenous community over two years, recording Gu’s self-searching journey to recover his lost identity as well as his sincere hope to rebuild the remains of the long-lost millet tradition.</p>
@@ -545,11 +545,11 @@
             Seed Design | 2020 | 4 Min. | Original with English and Rukai subtitles
         </div>
         <div class="tag-wrap">
-            <a href="" class="tag">#Germanpremiere</a>
-            <a href="" class="tag">#Animation</a>
-            <a href="" class="tag">#Handdrawnart</a>
-            <a href="" class="tag">#Traditionalculture</a>
-            <a href="" class="tag">#Tribe</a>
+            <a href="#" class="tag">#Germanpremiere</a>
+            <a href="#" class="tag">#Animation</a>
+            <a href="#" class="tag">#Handdrawnart</a>
+            <a href="#" class="tag">#Traditionalculture</a>
+            <a href="#" class="tag">#Tribe</a>
         </div>
         <div class="intro">
             <p>Both shorts are set in Taromak Village, a Rukai indigenous community located close to Taiwan’s southeast coast. Styling themselves “children of the sun,” the people of Taromak live by an ancient wisdom: “Culture is daily life.” About Taromak Eco-logy: With spatiotemporal coordinates defined by plants and animals, the sun’s children have built ta-romak, literally “our home,” on a sustainable ecological base. They believe every herb, bloom, fruit, bird, and beast is an amulet from the ancestors. Hence, Taromak is not just their home. Any home has rules, and only by following these rules, including traditional taboos, can the sun’s children find the way home and bear witness to the wisdom of the ancestors. Taromak Millet-ology is about the traditional food abay, millet. For the audience, it’s an initiation into an ancient mystery, a golden secret. It’s also an invitation to see the sustainable Rukai way of life, and the ecosystem which it constitutes, in a single millet grain. The Rukai reflect on their relation to this grain during the millet festival, when young men are refined into warriors who can join hands with the girls they love and compose an ode to the joy of life.</p>
