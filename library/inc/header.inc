@@ -2,22 +2,22 @@
 	<div class="frame">
 		<div class="nav-left logo">
 			<a href="../homepage">
-				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 313.42 83.9">
+				<svg xmlns="http://www.w3.org/2000/svg" id="logo_2021" viewBox="0 0 313.42 83.9">
 					<defs>
 						<style>
-							.cls-1{font-size:40.21px;fill:#e5c926;}
-							.cls-1,.cls-10,.cls-5,.cls-8{font-family:GillSans-Bold, Gill Sans;font-weight:700;}
-							.cls-2{letter-spacing:-0.06em;}
-							.cls-3{letter-spacing:0.01em;}
-							.cls-4{letter-spacing:-0.01em;}
-							.cls-5{font-size:24.02px;}
-							.cls-10,.cls-5,.cls-8{fill:#000;}
-							.cls-6{letter-spacing:-0.01em;}
-							.cls-7{fill:none;stroke:#000;stroke-miterlimit:10;stroke-width:2px;}
-							.cls-8{font-size:21px;}
-							.cls-9{letter-spacing:0.01em;}
-							.cls-10{font-size:48.64px;}
-							.cls-11{letter-spacing:-0.01em;}
+							#logo_2021 .cls-1{font-size:40.21px;fill:#e5c926;}
+							#logo_2021 .cls-1,#logo_2021 .cls-10,#logo_2021 .cls-5,.cls-8{font-family:GillSans-Bold, Gill Sans;font-weight:700;}
+							#logo_2021 .cls-2{letter-spacing:-0.06em;}
+							#logo_2021 .cls-3{letter-spacing:0.01em;}
+							#logo_2021 .cls-4{letter-spacing:-0.01em;}
+							#logo_2021 .cls-5{font-size:24.02px;}
+							#logo_2021 .cls-10,#logo_2021 .cls-5,#logo_2021 .cls-8{fill:#000;}
+							#logo_2021 .cls-6{letter-spacing:-0.01em;}
+							#logo_2021 .cls-7{fill:none;stroke:#000;stroke-miterlimit:10;stroke-width:2px;}
+							#logo_2021 .cls-8{font-size:21px;}
+							#logo_2021 .cls-9{letter-spacing:0.01em;}
+							#logo_2021 .cls-10{font-size:48.64px;}
+							#logo_2021 .cls-11{letter-spacing:-0.01em;}
 						</style>
 					</defs>
 					<text class="cls-1" transform="translate(0 35.2)">
@@ -79,10 +79,10 @@
 					<li>
 						<a href="http://www.impressiontaiwan.org/">
 							<span class="social-icon">
-								<svg id="homepage" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 34.41 27.69">
+								<svg id="mobile_impression" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 34.41 27.69">
 									<defs>
 										<style>
-										.cls-1{fill:#e5c926;}
+										#mobile_impression .cls-1{fill:#122d7c;}
 										</style>
 									</defs>
 									<circle class="cls-1" cx="15.75" cy="7.82" r="0.31"/>

@@ -4,6 +4,7 @@
 	box-sizing: border-box;
 }
 //animations
+
 @keyframes rubberBand {
   0% {
     -webkit-transform: scale3d(1, 1, 1);
@@ -108,7 +109,7 @@ html{
 					.logo{
 						width: 150px;
 						padding-top: 7px;
-						svg{
+						svg#logo_2021{
 							width: 100%;
 							.cls-10,.cls-5,.cls-8{
 								@media screen and (min-width: 992px) {
@@ -194,6 +195,7 @@ html{
 										margin-bottom: 5px;
 										.social-icon{
 											font-size: 22px;
+											display: flex;
 											svg{
 												width: 25px;
 												circle{
@@ -230,6 +232,7 @@ html{
 										margin: 5px;
 										.social-icon{
 											font-size: 18px;
+											display: flex;
 											svg{
 												width: 22px;
 											}

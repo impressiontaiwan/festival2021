@@ -73,13 +73,13 @@ html body {
         html body header nav .frame .logo {
           width: 150px;
           padding-top: 7px; }
-          html body header nav .frame .logo svg {
+          html body header nav .frame .logo svg#logo_2021 {
             width: 100%; }
             @media screen and (min-width: 992px) {
-              html body header nav .frame .logo svg .cls-10, html body header nav .frame .logo svg .cls-5, html body header nav .frame .logo svg .cls-8 {
+              html body header nav .frame .logo svg#logo_2021 .cls-10, html body header nav .frame .logo svg#logo_2021 .cls-5, html body header nav .frame .logo svg#logo_2021 .cls-8 {
                 fill: white; } }
             @media screen and (min-width: 992px) {
-              html body header nav .frame .logo svg .cls-7 {
+              html body header nav .frame .logo svg#logo_2021 .cls-7 {
                 stroke: white; } }
           @media screen and (min-width: 768px) {
             html body header nav .frame .logo {
@@ -137,7 +137,8 @@ html body {
               border: 5px solid #e5c926;
               margin-bottom: 5px; }
               html body header nav .frame .nav-right .mobile-social-menu ul li a .social-icon {
-                font-size: 22px; }
+                font-size: 22px;
+                display: flex; }
                 html body header nav .frame .nav-right .mobile-social-menu ul li a .social-icon svg {
                   width: 25px; }
                   html body header nav .frame .nav-right .mobile-social-menu ul li a .social-icon svg circle {
@@ -164,7 +165,8 @@ html body {
                 border: 2px solid #e5c926;
                 margin: 5px; }
                 html body header nav .frame .nav-right .desktop-social-menu ul li a .social-icon {
-                  font-size: 18px; }
+                  font-size: 18px;
+                  display: flex; }
                   html body header nav .frame .nav-right .desktop-social-menu ul li a .social-icon svg {
                     width: 22px; }
                 html body header nav .frame .nav-right .desktop-social-menu ul li a:hover {

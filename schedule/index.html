@@ -5,7 +5,119 @@
         <script type="text/javascript" src="../library/js/jquery-3.4.1.min.js"></script>
         <script type="text/javascript" src="../library/js/load_content.js"></script>
     </head>
-    <body id="page_schedule">
+    <body id="page_schedule" class="popup-show">
+        <style>
+            .loading-page{
+                position: fixed;
+                width:100%;
+                height:100vh;
+                top:0;
+                left:0;
+                background-color: #122d7c;
+                z-index:1235;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+            .loading-page .box{
+                width: 100px;
+                height: 100px;
+                position: relative;
+                animation: loading-box 6s infinite;
+            }
+            .loading-page .box .border{
+                width: 100%;
+                height: 100%;
+                position: absolute;
+                border:  10px solid #e5c926;
+                left: 0;
+                top: 0;
+            }
+            .loading-page .box .background-white{
+                width: 100%;
+                background-color: white;
+                position: absolute;
+                left: 0;
+                bottom: 0;
+                animation: loading-white 6s infinite;
+               
+            }
+            .loading-page .box .background-blue{
+                width: 100%;
+                background-color: #122d7c;
+                position: absolute;
+                left: 0;
+                bottom: 0;
+                animation: loading-blue 6s infinite;
+                
+            }
+            .loading-page .loading-impression{
+                position: absolute;
+                left: 50%;
+                height: 50%;
+                width: 50px;
+                transform: translateX(-50%);
+            }
+            @keyframes loading-box {
+                0% {
+                    transform: rotate(0deg);
+                }
+                25% {
+                    transform: rotate(0deg);
+                }
+                50% {
+                    transform: rotate(180deg);
+                }
+                75% {
+                    transform: rotate(180deg);
+                }
+                100% {
+                    transform: rotate(360deg);
+                }
+            }
+            @keyframes loading-white {
+                0% {
+                    height: 1%;
+                }
+                25% {
+                    height: 100%;
+                }
+                50% {
+                    height: 100%;
+                }
+                75% {
+                    height: 100%;
+                }
+                100% {
+                    height: 100%;
+                }
+            }
+            @keyframes loading-blue {
+                0% {
+                    height: 1%;
+                }
+                25% {
+                    height: 1%;
+                }
+                50% {
+                    height: 1%;
+                }
+                75% {
+                    height: 100%;
+                }
+                100% {
+                    height: 100%;
+                }
+            }
+        </style>
+        <div class="loading-page">
+            <div class="box">
+                <div class="background-white"></div>
+                <div class="background-blue"></div>
+                <div class="border"></div>
+            </div>
+            <img src="../library/assets/loading_impression.svg" alt="" class="loading-impression">
+        </div>
         <header></header>
         <div class="mobile-menu"></div>
         <div class="body-wrap">
@@ -100,5 +212,11 @@
             </div><!-- frame -->
             <footer></footer>
         </div>
+        <script>
+            $(window).on('load', function(){
+                $('.loading-page').remove();
+                $('body').removeClass('popup-show');
+            });
+        </script> 
     </body>
 </html>
