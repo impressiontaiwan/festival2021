@@ -211,15 +211,17 @@ html{
 					justify-content: space-between;
 					.logo{
 						width: 150px;
-						padding-top: 7px;
+						padding: 7px 0;
 						svg#logo_2021{
 							width: 100%;
-							.cls-10,.cls-5,.cls-8{
+							.cls-2{
+								fill: black;
 								@media screen and (min-width: 992px) {
 									fill: white;
 								}
 							}
-							.cls-7{
+							.cls-3{
+								stroke: black;
 								@media screen and (min-width: 992px) {
 									stroke: white;
 								}

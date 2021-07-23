@@ -148,15 +148,19 @@ html body {
         justify-content: space-between; }
         html body header nav .frame .logo {
           width: 150px;
-          padding-top: 7px; }
+          padding: 7px 0; }
           html body header nav .frame .logo svg#logo_2021 {
             width: 100%; }
-            @media screen and (min-width: 992px) {
-              html body header nav .frame .logo svg#logo_2021 .cls-10, html body header nav .frame .logo svg#logo_2021 .cls-5, html body header nav .frame .logo svg#logo_2021 .cls-8 {
-                fill: white; } }
-            @media screen and (min-width: 992px) {
-              html body header nav .frame .logo svg#logo_2021 .cls-7 {
-                stroke: white; } }
+            html body header nav .frame .logo svg#logo_2021 .cls-2 {
+              fill: black; }
+              @media screen and (min-width: 992px) {
+                html body header nav .frame .logo svg#logo_2021 .cls-2 {
+                  fill: white; } }
+            html body header nav .frame .logo svg#logo_2021 .cls-3 {
+              stroke: black; }
+              @media screen and (min-width: 992px) {
+                html body header nav .frame .logo svg#logo_2021 .cls-3 {
+                  stroke: white; } }
           @media screen and (min-width: 768px) {
             html body header nav .frame .logo {
               width: 200px;
