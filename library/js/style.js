@@ -5,6 +5,14 @@ $(document).ready(function(){
 	//     cache: false,
 	// });
 
+	//homepage
+	$('.banner .banner-director a').click(function(){
+		sessionStorage.setItem('event', 1);
+	});
+	$('.banner .banner-forum a').click(function(){
+		sessionStorage.setItem('event', 4);
+	});
+
 	//header
 	$('header').load('../library/inc/header.inc', function(){
 		$('.mobile-social-menu a').attr('target', '_blank');
@@ -104,22 +112,41 @@ $(document).ready(function(){
 	});
 
 	//event
+	if (sessionStorage.getItem('event') == 1){
+		$('.event-overview').hide();
+		$('.event-detail').show();
+		$('#page_events .event-detail .event').removeClass('expand');
+		$('#event_director').addClass('expand');
+		$('html,body').animate({scrollTop: $('#event_director').offset().top - 120},'slow');
+		sessionStorage.setItem('event', null);
+	}else if (sessionStorage.getItem('event') == 4){
+		$('.event-overview').hide();
+		$('.event-detail').show();
+		$('#page_events .event-detail .event').removeClass('expand');
+		$('#event_forum').addClass('expand');
+		$('html,body').animate({scrollTop: $('#event_forum').offset().top - 120},'slow');
+		sessionStorage.setItem('event', null);
+	}
 	$('#page_events .event-overview .event').click(function(){
 		$('.event-overview').hide();
 		$('.event-detail').show();
 		$('#page_events .event-detail .event').removeClass('expand');
 		var target = $(this).attr('data-target');
 		$(target).addClass('expand');
+		$('html,body').animate({scrollTop: $(target).offset().top - 120},'slow');
 	});
 	$('#page_events .event-detail .close-btn').click(function(){
 		$('#page_events .event-detail .event').removeClass('expand');
 		$('#page_events .event-detail').hide();
 		$('#page_events .event-overview').show();
+		$('html,body').animate({scrollTop: 0},'slow');
 	});
 	$('#page_events .event-detail .event').click(function(){
 		$('#page_events .event-detail .event').removeClass('expand');
 		$(this).toggleClass('expand');
+		$('html,body').animate({scrollTop: $(this).offset().top - 120},'slow');
 	});
+
 
 	//about
 	$('#page_about .submenu .menu-item').click(function(){
