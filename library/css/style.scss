@@ -1951,10 +1951,13 @@ html{
 						object-fit: cover;
 						transition: all 0.3s ease;
 					}
-					@media screen and (min-width: 1400px){
-						height: 340px;
-						@media screen and (min-width: 1600px) {
-							height: 380px;
+					@media screen and (min-width: 992px) {
+						height: 240px;
+						@media screen and (min-width: 1400px){
+							height: 340px;
+							@media screen and (min-width: 1600px) {
+								height: 380px;
+							}	
 						}
 					}
 				}//event-img

@@ -1613,10 +1613,14 @@ html body {
         display: block;
         object-fit: cover;
         transition: all 0.3s ease; }
-      @media screen and (min-width: 1400px) {
+      @media screen and (min-width: 992px) {
         #page_events .event-overview .frame .event .event-img {
-          height: 340px; } }
-  @media screen and (min-width: 1400px) and (min-width: 1600px) {
+          height: 240px; } }
+  @media screen and (min-width: 992px) and (min-width: 1400px) {
+    #page_events .event-overview .frame .event .event-img {
+      height: 340px; } }
+
+  @media screen and (min-width: 992px) and (min-width: 1400px) and (min-width: 1600px) {
     #page_events .event-overview .frame .event .event-img {
       height: 380px; } }
 
