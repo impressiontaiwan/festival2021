@@ -137,7 +137,7 @@
             <p>One of the most influential directors in Taiwan’s New Wave Cinema of the 1980s, he made his debut, The Taste of Apple, in the landmark work The Sandwich Man (1983) with HOU Hsiao-hsien and ZENG Chuang-hsiang. WAN has consistently explored Taiwan’s social problems and political issues. His work has always been politically sensitive and critical of the impacts of industrialization and political corruption, and has been powerful in challenging how the past is presented and whose story is told.</p>
         </div>
         <div class="button-wrap">
-            <a href="#" class="interview-btn" onclick="return false;">
+            <a href="https://www.youtube.com/watch?v=M0jve7DvqqA" class="interview-btn" target="_blank">
                 <i class="fas fa-play-circle"></i> Watch the Interview
             </a>
         </div>
